@@ -1,6 +1,14 @@
-@charset "UTF-8";
-/* CSS Geral */
+:root {
+  --bg-color: #e1e5e7;
+  --green: #80c423;
+  --font: "Inter", sans-serif;
+  --font-color: #2a454a;
+}
 /* Style Reset */
+* {
+  font-family: var(--font);
+}
+
 a {
   text-decoration: none;
 }
@@ -15,7 +23,38 @@ ul {
   padding: 0;
 }
 
+.fs-15 {
+  font-size: 15px;
+}
+
+.font-color {
+  color: var(--font-color);
+}
+
+.index-bg-main {
+  background-color: var(--bg-color);
+}
+
+.index-bg-services {
+  background-color: var(--green);
+}
+
+.borda {
+  border: 1px solid red;
+}
 /* -------------------------------------- */
+
+/* CSS Index */
+
+.left-content {
+  background-color: #6a2b86;
+}
+
+.noticia-1-text {
+  top: 150px;
+}
+
+/*  Footer  */
 /* Sobre a Cidade */
 .about-city-bg {
   background-image: url(../../assets/images/footer-background.png);
@@ -29,6 +68,7 @@ ul {
     padding-right: 28px;
   }
 }
+
 /* Footer */
 .footer {
   background: linear-gradient(180deg, rgba(66, 24, 105, 0.9) 0%, #421869 100%);
@@ -41,7 +81,7 @@ ul {
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
-/*  Botáo Download Apps */
+/*  Botão Download Apps */
 .btn-app {
   border: 1px solid blue;
   padding: 16px;
@@ -66,5 +106,3 @@ ul {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
-
-/*# sourceMappingURL=style.css.map */
