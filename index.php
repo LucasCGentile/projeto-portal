@@ -19,9 +19,6 @@
 
 <body>
 
-  <h1>Olá</h1>
-
-
   <?php
   include './pages/includes/footer/footer.php'
   ?>

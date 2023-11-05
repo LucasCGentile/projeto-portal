@@ -1,27 +1,21 @@
 @charset "UTF-8";
 /* CSS Geral */
+/* Style Reset */
 a {
   text-decoration: none;
-}
-
-h2 {
-  font-family: "Inter", sans-serif;
-  font-weight: 800;
-}
-
-p,
-ul {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  margin: 0;
-  padding: 0;
 }
 
 li {
   list-style-type: none;
 }
 
-/* CSS Footer */
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* -------------------------------------- */
 /* Sobre a Cidade */
 .about-city-bg {
   background-image: url(../../assets/images/footer-background.png);
@@ -32,17 +26,25 @@ li {
 @media (min-width: 831px) {
   .history-text {
     max-width: 460px;
+    padding-right: 28px;
   }
 }
-/*Area Final*/
-.start-content {
+/* Footer */
+.footer {
   background: linear-gradient(180deg, rgba(66, 24, 105, 0.9) 0%, #421869 100%);
+}
+
+.card-contact {
+  background: rgba(109, 50, 130, 0.6);
+  padding: 28px;
+  border-radius: 16px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 /*  Botáo Download Apps */
 .btn-app {
   border: 1px solid blue;
-  padding: 10px;
+  padding: 16px;
   color: #fff;
   /* From https://css.glass */
   background: rgba(255, 255, 255, 0.07);
@@ -53,7 +55,7 @@ li {
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-/* Scrollbar Botoes */
+/* Vertical Scrollbar */
 /* Hide scrollbar for Chrome, Safari and Opera */
 .scroll::-webkit-scrollbar {
   display: none;
