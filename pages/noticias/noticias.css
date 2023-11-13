@@ -1,0 +1,32 @@
+small {
+  font-size: 9px;
+}
+
+.banner {
+  background: url(../../assets/images/noticias-banner.jpeg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.bg-now {
+  background-color: rgba(107, 43, 135, 0.2);
+}
+
+.img-resize-now {
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  background-position: bottom;
+}
+.card {
+  height: 100px;
+  width: 350px;
+}
+
+.card-text {
+  width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: wrap;
+  font-size: 14px;
+}
