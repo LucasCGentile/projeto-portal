@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <?php
-include './pages/includes/head/head.php'
+include './includes/head/head.php'
 ?>
-
 
 <body>
   <?php
-  include './pages/includes/header/header.php'
+  include './includes/header/header.php'
   ?>
   <!-- Conteudo Principal -->
 
@@ -154,7 +153,7 @@ include './pages/includes/head/head.php'
 
 
   <?php
-  include './pages/includes/footer/footer.php'
+  include './includes/footer/footer.php'
   ?>
 </body>
 
