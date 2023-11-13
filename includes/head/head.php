@@ -13,13 +13,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+
   <!-- Meu CSS -->
-  <link rel="stylesheet" href="./style/css/style.css">
-  <link rel="stylesheet" href="../../style/css/style.css">
+  <!-- Geral -->
+  <link rel="stylesheet" href="../../../projeto-portal/css/style.css">
+
+  <!-- Header -->
+  <link rel="stylesheet" href="../../../projeto-portal/includes/header/header.css">
+
+  <!-- Index -->
+  <link rel="stylesheet" href="../../../projeto-portal/css/index.css">
 
   <!-- Noticias -->
-  <link rel="stylesheet" href="../../pages/noticias/noticias.css">
+  <link rel="stylesheet" href="../../../projeto-portal/pages/noticias/noticias.css">
 
   <!-- Footer -->
-  <link rel="stylesheet" href="../footer/footer.css">
+  <link rel=" stylesheet" href="../../../projeto-portal/includes/footer/footer.css">
 </head>

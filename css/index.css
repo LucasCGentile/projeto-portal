@@ -1,0 +1,23 @@
+.fs-15 {
+  font-size: 15px;
+}
+
+.font-color {
+  color: var(--font-color);
+}
+
+.index-bg-main {
+  background-color: var(--bg-color);
+}
+
+.index-bg-services {
+  background-color: var(--green);
+}
+
+.left-content {
+  background-color: #6a2b86;
+}
+
+.noticia-1-text {
+  top: 150px;
+}
