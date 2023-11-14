@@ -5,7 +5,10 @@
 include '../../includes/head/head.php';
 ?>
 
-<body>
+<body class="index-bg-main">
+  <?php
+  include '../../includes/header/header.php'
+  ?>
   <main>
     <div class="container">
       <div>
@@ -17,7 +20,7 @@ include '../../includes/head/head.php';
           <div class="card card-link card-home-bus"><a class="card-link-home-bus" class="card-link-home-bus" href="./pages/municipais/canguera.php">Canguera</a></div>
         </div>
         <div class="col-lg-4 col-md-6 mt-3">
-          <div class="card card-link card-home-bus"><a class="card-link-home-bus" href="./pages/municipais/carmo.php">Carmo via Ponta Porã</a></div>
+          <div class="card card-link card-home-bus"><a class="card-link-home-bus" href="../pages/municipais/carmo.php">Carmo via Ponta Porã</a></div>
         </div>
         <div class="col-lg-4 col-md-6 mt-3">
           <div class="card card-link card-home-bus"><a class="card-link-home-bus" href="./pages/municipais/gabriel.php">Gabriel Piza</a></div>
