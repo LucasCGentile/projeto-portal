@@ -1,4 +1,4 @@
-<header class="text-center">
+<header class="container text-center">
   <ul class="d-flex justify-content-center gap-5 list-unstyled">
     <li><a href="/projeto-portal/index.php">Home</a></li>
     <li><a href="/projeto-portal/pages/noticias/noticias.php">Noticias</a></li>
@@ -66,17 +66,20 @@
           <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
       </div>
-      <li class="facebook">
-        <a href="https://facebook.com/"><i class="bi bi-facebook"></i>
-        </a>
-      </li>
-      <li class="instagram">
-        <a href="https://instagram.com/"><i class="bi bi-instagram"></i>
-        </a>
-      </li>
-      <li class="twitter">
-        <a href="https://twitter.com/"><i class="bi bi-twitter-x"></i>
-        </a>
-      </li>
+      <ul>
+        <li class="facebook">
+          <a href="https://facebook.com/"><i class="bi bi-facebook"></i>
+          </a>
+        </li>
+        <li class="instagram">
+          <a href="https://instagram.com/"><i class="bi bi-instagram"></i>
+          </a>
+        </li>
+        <li class="twitter">
+          <a href="https://twitter.com/"><i class="bi bi-twitter-x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </div>

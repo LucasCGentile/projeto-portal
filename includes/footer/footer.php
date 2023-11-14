@@ -6,7 +6,7 @@
         <div class="d-lg-flex justify-content-between history-city pt-lg-5">
 
           <figure class="history-image order-2">
-            <img src="../../../projeto-portal/includes/footer/assets/foto-cidade.png" alt="foto-cidade" class="img-fluid" pt-lg-0 pb-3">
+            <img src="../../../projeto-portal/includes/footer/assets/foto-cidade.png" alt="foto-cidade" class="img-fluid pt-lg-0 pb-3">
           </figure>
 
           <div class="d-lg-flex flex-column order-1 history-text">
