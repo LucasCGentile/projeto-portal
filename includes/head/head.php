@@ -21,6 +21,9 @@
   <!-- Index -->
   <link rel="stylesheet" href="../../../projeto-portal/css/index.css">
 
+  <!-- Onibus -->
+  <link rel="stylesheet" href="../../../projeto-portal/pages/onibus/onibus.css">
+
   <!-- Noticias -->
   <link rel="stylesheet" href="../../../projeto-portal/pages/noticias/noticias.css">
 
