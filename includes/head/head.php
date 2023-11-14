@@ -24,6 +24,9 @@
   <!-- Onibus -->
   <link rel="stylesheet" href="../../../projeto-portal/pages/onibus/onibus.css">
 
+  <!-- Contato -->
+  <link rel="stylesheet" href="../../../projeto-portal/pages/contato/contato.css">
+
   <!-- Noticias -->
   <link rel="stylesheet" href="../../../projeto-portal/pages/noticias/noticias.css">
 
