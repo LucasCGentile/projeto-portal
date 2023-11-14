@@ -10,141 +10,59 @@ include '../../includes/head/head.php';
   include '../../includes/header/header.php'
   ?>
 
-  <!-- Conteudo Principal -->
-  <div class="index-bg-main pb-5">
-    <div class="container">
+  <h1 class="container text-center">HISTORIA DA NOSSA CIDADE</h1>
 
-      <!-- Conteudo Inicial -->
+  <section class="histdesr container text-center">
 
-      <div class="d-flex flex-column flex-lg-row justify-content-between gap-5">
+    <img src="https://placehold.co/200x200" alt="">
 
-        <!-- Lateral Esquerda -->
-        <div class="rounded-4 left-content">
-
-          <div class="d-inline-block position-relative mb-2">
-            <a href="historia.php"><img class="img-fluid" src="https://placehold.co/470x350" alt="">
-              <h2 class="text-light position-absolute noticia-1-text">HISTORIA DA NOSSA CIDADE</h2>
-          </div></a>
-
-          <div class="rounded-4 left-content">
-
-            <div class="d-inline-block position-relative mb-2">
-              <a href="historia.php"><img class="img-fluid" src="https://placehold.co/470x350" alt="">
-                <h2 class="text-light position-absolute noticia-1-text">GALERIA DE PREFEITOS</h2>
-            </div></a>
+    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos odio laborum vero quam commodi aperiam fugit quaerat perspiciatis voluptatum reprehenderit expedita, sint nihil molestiae. Officia illo laudantium itaque doloremque molestias.
+      Quo eum, aliquid optio qui ex maiores doloremque vero debitis eaque! Iste necessitatibus id quas ea? Magnam vero harum et fuga possimus mollitia consequuntur iure, id, eaque ea assumenda molestiae.
+      Recusandae sit autem, eos omnis dolorem similique distinctio mollitia maxime! Officiis iste corrupti natus quidem, accusantium, et inventore modi rem doloribus voluptate dignissimos fugit hic ex, labore cumque ipsa velit?</p>
 
 
+  </section>
+
+  <section class="histdesr container text-center">
+
+    <img src="https://placehold.co/200x200" alt="">
+
+    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos odio laborum vero quam commodi aperiam fugit quaerat perspiciatis voluptatum reprehenderit expedita, sint nihil molestiae. Officia illo laudantium itaque doloremque molestias.
+      Quo eum, aliquid optio qui ex maiores doloremque vero debitis eaque! Iste necessitatibus id quas ea? Magnam vero harum et fuga possimus mollitia consequuntur iure, id, eaque ea assumenda molestiae.
+      Recusandae sit autem, eos omnis dolorem similique distinctio mollitia maxime! Officiis iste corrupti natus quidem, accusantium, et inventore modi rem doloribus voluptate dignissimos fugit hic ex, labore cumque ipsa velit?</p>
 
 
-            <!-- Lateral Direia -->
-            <div class="size">
-              <!-- Menu de Navegação -->
-              <div class="text-light index-bg-services d-flex justify-content-around align-items-center gap-3 rounded-top">
+  </section>
 
-                <div class="d-flex flex-column justify-content-center align-items-center">
-                  <i class="bi bi-info-circle-fill"></i>
-                  <h3 class="fw-bold fs-15 text-center">Portal da <br> Transparencia</h3>
-                </div>
-
-                <div class="d-flex flex-column justify-content-center align-items-center">
-                  <i class="bi bi-bank2"></i>
-                  <h3 class="fw-bold fs-15 text-center">Secretarias e <br> Governos</h3>
-                </div>
-
-                <div class="d-flex flex-column justify-content-center align-items-center">
-                  <i class="bi bi-gear-fill"></i>
-                  <h3 class="fw-bold fs-15 text-center">Portal de <br> Serviços</h3>
-                </div>
-
-              </div>
-
-
-              <!-- Seções -->
-              <div class="bg-light font-color rounded">
-                <div class="d-flex justify-content-between rounded-pill bg-light">
-
-                  <div class="p-3">
-                    <h3 class="index-bg-main">Cidadão</h3>
-                  </div>
-
-                  <div class="p-3">
-                    <h3 class="index-bg-main">Empresa</h3>
-                  </div>
-
-                  <div class="p-3">
-                    <h3 class="index-bg-main">Servidor</h3>
-                  </div>
-
-                  <div class="p-3">
-                    <h3 class="index-bg-main">Turista</h3>
-                  </div>
-
-                </div>
-
-                <!-- Cards -->
-                <div>
-                  <!-- Card 1 Linha -->
-                  <div class="d-flex justify-content-around align-items-center text-center">
-                    <div class="index-bg-main">
-                      <i class="bi bi-person-plus-fill"></i>
-                      <h3 class="h6">Refis 2023</h3>
-                    </div>
-                    <div class="index-bg-main">
-                      <i class="bi bi-card-list"></i>
-                      <h3 class="h6">Nota Fiscal <br> Eletronica</h3>
-                    </div>
-                    <div class="index-bg-main">
-                      <i class="bi bi-person-plus-fill"></i>
-                      <h3 class="h6">Portal do <br> Contribuinte</h3>
-                    </div>
-                  </div>
-
-                  <!-- Card 2 Linha -->
-                  <div class="d-flex justify-content-around align-items-center text-center">
-                    <div class="index-bg-main">
-                      <i class="bi bi-house-door-fill"></i>
-                      <h3 class="h6">Débitos - IPTU,ITU, <br> ITBI e ISS</h3>
-                    </div>
-                    <div class="index-bg-main">
-                      <i class="bi bi-book-half"></i>
-                      <h3 class="h6">Diário Oficial e <br> Legislação</h3>
-                    </div>
-                    <div class="index-bg-main">
-                      <i class="bi bi-clipboard2-check-fill"></i>
-                      <h3 class="h6">Concursos e Seleções</h3>
-                    </div>
-                  </div>
-
-                  <!-- Card 3 Linha -->
-                  <div class="d-flex justify-content-around align-items-center text-center">
-                    <div class="index-bg-main">
-                      <i class="bi bi-check-lg"></i>
-                      <h3 class="h6">Agendamento <br> Atende Fácil</h3>
-                    </div class="index-bg-main">
-                    <div class="index-bg-main">
-                      <i class="bi bi-person-plus-fill"></i>
-                      <h3 class="h6">Agendamento SEFIN / <br> SEPLANH</h3>
-                    </div>
-                    <div class="index-bg-main">
-                      <i class="bi bi-house-door-fill"></i>
-                      <h3 class="h6">Programa Municipal <br> de Habitação</h3>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-
-            </div>
-          </div>
-
-
-
-
-
-        </div>
-      </div>
-    </div>
+  <div class="imghist container text-center">
+    <img src="https://placehold.co/200x200" class="rouded" alt="">
+    <img src="https://placehold.co/200x200" alt="">
+    <img src="https://placehold.co/200x200" alt="">
   </div>
+
+  <div class="container text-center">
+
+    <section class="histpt1 container text-center ">
+
+      <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos odio laborum vero quam commodi aperiam fugit quaerat perspiciatis voluptatum reprehenderit expedita, sint nihil molestiae. Officia illo laudantium itaque doloremque molestias.
+        Quo eum, aliquid optio qui ex maiores doloremque vero debitis eaque! Iste necessitatibus id quas ea? Magnam vero harum et fuga possimus mollitia consequuntur iure, id, eaque ea assumenda molestiae.
+        Recusandae sit autem, eos omnis dolorem similique distinctio mollitia maxime! Officiis iste corrupti natus quidem, accusantium, et inventore modi rem doloribus voluptate dignissimos fugit hic ex, labore cumque ipsa velit?</p>
+      <img src="https://placehold.co/200x200" alt="">
+
+
+    </section>
+
+
+    <section class="histpt1 container-hist text-center">
+
+      <img src="https://placehold.co/200x200" alt="">
+
+      <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos odio laborum vero quam commodi aperiam fugit quaerat perspiciatis voluptatum reprehenderit expedita, sint nihil molestiae. Officia illo laudantium itaque doloremque molestias.
+        Quo eum, aliquid optio qui ex maiores doloremque vero debitis eaque! Iste necessitatibus id quas ea? Magnam vero harum et fuga possimus mollitia consequuntur iure, id, eaque ea assumenda molestiae.
+        Recusandae sit autem, eos omnis dolorem similique distinctio mollitia maxime! Officiis iste corrupti natus quidem, accusantium, et inventore modi rem doloribus voluptate dignissimos fugit hic ex, labore cumque ipsa velit?</p>
+
+
+    </section>
   </div>
 
   <?php

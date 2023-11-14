@@ -41,7 +41,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-dark" href="../../../projeto-portal/pages/regrasUso/regrasUso.php">Regras de Uso</a>
+            <a class="nav-link text-dark" href="../../../projeto-portal/pages/regras/regras.php">Regras de Uso</a>
           </li>
 
 
