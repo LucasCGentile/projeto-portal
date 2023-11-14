@@ -125,7 +125,7 @@ include './includes/head/head.php'
                   <div class="index-bg-main">
                     <i class="bi bi-check-lg"></i>
                     <h3 class="h6">Agendamento <br> Atende Fácil</h3>
-                  </div class="index-bg-main">
+                  </div>
                   <div class="index-bg-main">
                     <i class="bi bi-person-plus-fill"></i>
                     <h3 class="h6">Agendamento SEFIN / <br> SEPLANH</h3>
@@ -136,16 +136,9 @@ include './includes/head/head.php'
                   </div>
                 </div>
               </div>
-
             </div>
-
           </div>
         </div>
-
-
-
-
-
       </div>
     </div>
   </main>
