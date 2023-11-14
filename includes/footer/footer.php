@@ -43,7 +43,7 @@
         <div>
           <!-- Logo Prefeitura -->
           <div>
-            <img class="d-md-none d-lg-block d-none pt-lg-5" src="./assets/images/logo-sr-branco.png" alt="logo sao roque com letras brancas">
+            <img class="d-md-none d-lg-block d-none pt-lg-5" src="../../../projeto-portal/includes/footer/assets/logo-sr-branco.png" alt="logo sao roque com letras brancas">
           </div>
 
           <!-- Apps -->
