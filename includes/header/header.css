@@ -1,0 +1,23 @@
+.navbar-brand img {
+  width: 80px;
+}
+
+/* .navbar-nav {
+  align-items: center;
+} */
+
+.navbar .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 1.1em;
+  padding: 0.5em 1em;
+}
+
+/* @media screen and (min-width: 768px) {
+  .navbar-brand img {
+    width: 100px;
+  }
+  .navbar-brand {
+    margin-right: 0;
+    padding: 0 1em;
+  }
+} */
