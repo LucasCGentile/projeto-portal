@@ -68,19 +68,19 @@ include './includes/head/head.php'
             <div class="bg-light font-color rounded">
               <div class="d-flex justify-content-between rounded-pill bg-light">
 
-                <div class="p-3">
+                <div class="">
                   <h3 class="index-bg-main">Cidadão</h3>
                 </div>
 
-                <div class="p-3">
+                <div class="">
                   <h3 class="index-bg-main">Empresa</h3>
                 </div>
 
-                <div class="p-3">
+                <div class="">
                   <h3 class="index-bg-main">Servidor</h3>
                 </div>
 
-                <div class="p-3">
+                <div class="">
                   <h3 class="index-bg-main">Turista</h3>
                 </div>
 
@@ -139,8 +139,98 @@ include './includes/head/head.php'
             </div>
           </div>
         </div>
+
+        <!-- Banner Aviso -->
+        <div class="mt-4">
+          <figure>
+            <img src="https://placehold.co/1300x200" alt="" class="img-fluid">
+          </figure>
+        </div>
       </div>
     </div>
+
+    <!-- Secção Noticias / Informações -->
+    <div class="index-bg-secondary">
+      <div class="container pt-5 pb-4">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h2>Noticias</h2>
+          <a href="./pages/noticias/noticias.php">Agencia de Noticias</a>
+        </div>
+        <h3>Lorem ipsum, dolor sit amet</h3>
+
+        <div class="d-flex flex-column flex-md-row justify-content-between">
+          <!-- Noticias -->
+          <div class="d-flex flex-column gap-3">
+
+            <div class="d-flex align-items-center gap-3 border bg-light p-2">
+              <img src="https://placehold.co/160x120" alt="" class="img-fluid">
+              <h6>Lorem ipsum dolor sit amet. Reprehenderit, aspernatur ?</h6>
+            </div>
+
+            <div class="d-flex align-items-center gap-3 border bg-light p-2">
+              <img src="https://placehold.co/160x120" alt="" class="img-fluid">
+              <h6>Lorem ipsum dolor sit amet. Reprehenderit, aspernatur?</h6>
+            </div>
+
+            <div class="d-flex align-items-center gap-3 border bg-light p-2">
+              <img src="https://placehold.co/160x120" alt="" class="img-fluid">
+              <h6>Lorem ipsum dolor sit amet. Reprehenderit, aspernatur?</h6>
+            </div>
+
+            <div class="d-flex align-items-center gap-3 border bg-light p-2">
+              <img src="https://placehold.co/160x120" alt="" class="img-fluid">
+              <h6>Lorem ipsum dolor sit amet. Reprehenderit, aspernatur?</h6>
+            </div>
+
+            <div class="d-flex align-items-center gap-3 border bg-light p-2">
+              <img src="https://placehold.co/160x120" alt="" class="img-fluid">
+              <h6>Lorem ipsum dolor sit amet. Reprehenderit, aspernatur?</h6>
+            </div>
+
+            <div class="d-flex align-items-center gap-3 border bg-light p-2">
+              <img src="https://placehold.co/160x120" alt="" class="img-fluid">
+              <h6>Lorem ipsum dolor sit amet. Reprehenderit, aspernatur?</h6>
+            </div>
+
+            <div class="d-flex align-items-center gap-3 border bg-light p-2">
+              <img src="https://placehold.co/160x120" alt="" class="img-fluid">
+              <h6>Lorem ipsum dolor sit amet. Reprehenderit, aspernatur?</h6>
+            </div>
+
+            <div class="d-flex align-items-center gap-3 border bg-light p-2">
+              <img src="https://placehold.co/160x120" alt="" class="img-fluid">
+              <h6>Lorem ipsum dolor sit amet. Reprehenderit, aspernatur?</h6>
+            </div>
+
+          </div>
+          <!-- Banners -->
+          <div class="d-flex flex-column gap-3">
+            <div class="d-flex gap-3">
+              <img src="https://placehold.co/275x290" alt="" class="img-fluid rounded">
+              <img src="https://placehold.co/275x290" alt="" class="img-fluid rounded">
+            </div>
+
+            <div class="d-flex gap-3">
+              <img src="https://placehold.co/275x290" alt="" class="img-fluid rounded">
+              <img src="https://placehold.co/275x290" alt="" class="img-fluid rounded">
+            </div>
+
+            <div class="d-flex gap-3">
+              <img src="https://placehold.co/275x290" alt="" class="img-fluid rounded">
+              <img src="https://placehold.co/275x290" alt="" class="img-fluid rounded">
+            </div>
+
+            <div class="d-flex gap-3">
+              <img src="https://placehold.co/275x290" alt="" class="img-fluid rounded">
+              <img src="https://placehold.co/275x290" alt="" class="img-fluid rounded">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
   </main>
 
 
