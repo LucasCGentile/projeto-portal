@@ -1,8 +1,20 @@
+.fs-14 {
+  font-size: 14px;
+}
+
 .fs-15 {
   font-size: 15px;
 }
 
-.font-color {
+.w-180 {
+  width: 180px;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+.text-color {
   color: var(--font-color);
 }
 
@@ -24,4 +36,32 @@
 
 .noticia-1-text {
   top: 150px;
+}
+
+.card-size {
+  height: 124px;
+  width: 174px;
+}
+
+.icon {
+  font-size: 40px;
+}
+
+.text-hover:hover {
+  color: white;
+  background-color: var(--green);
+}
+
+.card-hover:hover {
+  color: white;
+  background-color: rgba(107, 44, 135, 0.2);
+}
+
+@media (width >= 1024px) {
+  .index-esquerda {
+    width: 50%;
+  }
+  .index-direita {
+    width: 50%;
+  }
 }

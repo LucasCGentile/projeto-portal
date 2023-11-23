@@ -19,7 +19,7 @@ include './includes/head/head.php'
         <div class="d-flex flex-column flex-lg-row justify-content-between gap-5">
 
           <!-- Lateral Esquerda -->
-          <div class="rounded-4 left-content">
+          <div class="index-esquerda rounded-4 left-content">
 
             <div class="d-inline-block position-relative mb-2">
               <img class="img-fluid" src="./assets/images/home-noticia-1.png" alt="">
@@ -42,97 +42,107 @@ include './includes/head/head.php'
           </div>
 
           <!-- Lateral Direia -->
-          <div class="size">
+          <div class="index-direita">
             <!-- Menu de Navegação -->
-            <div class="text-light index-bg-services d-flex justify-content-around align-items-center gap-3 rounded-top">
+            <div class="text-light index-bg-services d-flex justify-content-around align-items-center gap-3 rounded-top pt-1 pb-1">
 
-              <div class="d-flex flex-column justify-content-center align-items-center">
-                <i class="bi bi-info-circle-fill"></i>
-                <h3 class="fw-bold fs-15 text-center">Portal da <br> Transparencia</h3>
+              <div class="d-flex flex-column justify-content-center align-items-center p-2">
+                <i class="bi bi-info-circle-fill bg-transparent icon mb-2"></i>
+                <h3 class="fw-bold fs-15 text-center ">Portal da <br> Transparencia</h3>
               </div>
 
-              <div class="d-flex flex-column justify-content-center align-items-center">
-                <i class="bi bi-bank2"></i>
-                <h3 class="fw-bold fs-15 text-center">Secretarias e <br> Governos</h3>
+              <div class="d-flex flex-column justify-content-center align-items-center p-2">
+                <i class="bi bi-bank2 bg-transparent icon mb-2"></i>
+                <h3 class="fw-bold fs-15 text-center ">Secretarias e <br> Governos</h3>
               </div>
 
-              <div class="d-flex flex-column justify-content-center align-items-center">
-                <i class="bi bi-gear-fill"></i>
-                <h3 class="fw-bold fs-15 text-center">Portal de <br> Serviços</h3>
+              <div class="d-flex flex-column justify-content-center align-items-center p-2">
+                <i class="bi bi-gear-fill bg-transparent icon mb-2"></i>
+                <h3 class="fw-bold fs-15 text-center ">Portal de <br> Serviços</h3>
               </div>
 
             </div>
 
 
             <!-- Seções -->
-            <div class="bg-light font-color rounded">
-              <div class="d-flex justify-content-between rounded-pill bg-light">
+            <div class="bg-light rounded-4 rounded-top-0">
+              <div class="text-color p-3">
+                <div class="d-flex justify-content-between align-items-center rounded-pill index-bg-secondary p-1 mb-4">
 
-                <div class="">
-                  <h3 class="index-bg-main">Cidadão</h3>
+                  <div class="index-bg-services py-2 px-4 rounded-pill">
+                    <h4 class="text-light fs-14 fw-bold">Cidadão</h4>
+                  </div>
+
+                  <div class="py-2 px-4 rounded-pill text-hover">
+                    <h4 class="fs-14 fw-bold">Empresa</h4>
+                  </div>
+
+                  <div class="py-2 px-4 rounded-pill text-hover">
+                    <h4 class="fs-14 fw-bold">Servidor</h4>
+                  </div>
+
+                  <div class="py-2 px-4 rounded-pill text-hover">
+                    <h4 class="fs-14 fw-bold">Turista</h6>
+                  </div>
                 </div>
 
-                <div class="">
-                  <h3 class="index-bg-main">Empresa</h3>
-                </div>
-
-                <div class="">
-                  <h3 class="index-bg-main">Servidor</h3>
-                </div>
-
-                <div class="">
-                  <h3 class="index-bg-main">Turista</h3>
-                </div>
-
-              </div>
-
-              <!-- Cards -->
-              <div>
+                <!-- Cards -->
                 <!-- Card 1 Linha -->
                 <div class="d-flex justify-content-around align-items-center text-center">
-                  <div class="index-bg-main">
-                    <i class="bi bi-person-plus-fill"></i>
-                    <h3 class="h6">Refis 2023</h3>
+
+                  <div class="d-flex flex-column justify-content-center
+                    align-items-center index-bg-secondary icon card-hover card-size rounded-3 px-5 borda">
+                    <i class="bi bi-person-plus-fill bg-transparent"></i>
+                    <span class="fs-15 no-wrap fw-bolder d-inline">Refis 2023</span>
                   </div>
-                  <div class="index-bg-main">
-                    <i class="bi bi-card-list"></i>
-                    <h3 class="h6">Nota Fiscal <br> Eletronica</h3>
+                  <div class="d-flex flex-column justify-content-center
+                    align-items-center index-bg-secondary icon card-size rounded-3 px-5 borda">
+                    <i class="bi bi-card-list bg-transparent"></i>
+                    <h3 class="fs-15 no-wrap fw-bolder">Nota Fiscal <br> Eletronica</h3>
                   </div>
-                  <div class="index-bg-main">
-                    <i class="bi bi-person-plus-fill"></i>
-                    <h3 class="h6">Portal do <br> Contribuinte</h3>
+                  <div class="d-flex flex-column justify-content-center
+                    align-items-center index-bg-secondary icon card-size rounded-3 px-5 borda">
+                    <i class="bi bi-person-plus-fill bg-transparent"></i>
+                    <h3 class="fs-15 no-wrap fw-bolder">Portal do <br> Contribuinte</h3>
                   </div>
                 </div>
 
                 <!-- Card 2 Linha -->
                 <div class="d-flex justify-content-around align-items-center text-center">
-                  <div class="index-bg-main">
-                    <i class="bi bi-house-door-fill"></i>
-                    <h3 class="h6">Débitos - IPTU,ITU, <br> ITBI e ISS</h3>
+
+                  <div class="d-flex flex-column justify-content-center
+                    align-items-center index-bg-secondary icon card-size rounded-3 px-5 borda">
+                    <i class="bi bi-house-door-fill bg-transparent"></i>
+                    <h3 class="fs-15 no-wrap fw-bolder">Débitos - IPTU,ITU, <br> ITBI e ISS</h3>
                   </div>
-                  <div class="index-bg-main">
-                    <i class="bi bi-book-half"></i>
-                    <h3 class="h6">Diário Oficial e <br> Legislação</h3>
+                  <div class="d-flex flex-column justify-content-center
+                    align-items-center index-bg-secondary icon card-size rounded-3 px-5 borda">
+                    <i class="bi bi-book-half bg-transparent"></i>
+                    <h3 class="fs-15 no-wrap fw-bolder">Diário Oficial e <br> Legislação</h3>
                   </div>
-                  <div class="index-bg-main">
-                    <i class="bi bi-clipboard2-check-fill"></i>
-                    <h3 class="h6">Concursos e Seleções</h3>
+                  <div class="d-flex flex-column justify-content-center
+                    align-items-center index-bg-secondary icon card-size rounded-3 px-5 borda">
+                    <i class="bi bi-clipboard2-check-fill bg-transparent"></i>
+                    <h3 class="fs-15 no-wrap fw-bolder">Concursos e Seleções</h3>
                   </div>
                 </div>
 
                 <!-- Card 3 Linha -->
                 <div class="d-flex justify-content-around align-items-center text-center">
-                  <div class="index-bg-main">
-                    <i class="bi bi-check-lg"></i>
-                    <h3 class="h6">Agendamento <br> Atende Fácil</h3>
+                  <div class="d-flex flex-column justify-content-center
+                    align-items-center index-bg-secondary icon card-size rounded-3 px-5 borda">
+                    <i class="bi bi-check-lg bg-transparent"></i>
+                    <h3 class="fs-15 no-wrap fw-bolder">Agendamento <br> Atende Fácil</h3>
                   </div>
-                  <div class="index-bg-main">
-                    <i class="bi bi-person-plus-fill"></i>
-                    <h3 class="h6">Agendamento SEFIN / <br> SEPLANH</h3>
+                  <div class="d-flex flex-column justify-content-center
+                    align-items-center index-bg-secondary icon card-size rounded-3 px-5 borda">
+                    <i class="bi bi-person-plus-fill bg-transparent"></i>
+                    <h3 class="fs-15 no-wrap fw-bolder">Agendamento SEFIN / <br> SEPLANH</h3>
                   </div>
-                  <div class="index-bg-main">
-                    <i class="bi bi-house-door-fill"></i>
-                    <h3 class="h6">Programa Municipal <br> de Habitação</h3>
+                  <div class="d-flex flex-column justify-content-center
+                    align-items-center index-bg-secondary icon card-size rounded-3 px-5 borda">
+                    <i class="bi bi-house-door-fill bg-transparent"></i>
+                    <h3 class="fs-15 no-wrap fw-bolder">Programa Municipal <br> de Habitação</h3>
                   </div>
                 </div>
               </div>
@@ -158,9 +168,9 @@ include './includes/head/head.php'
         </div>
         <h3>Lorem ipsum, dolor sit amet</h3>
 
-        <div class="d-flex flex-column flex-md-row justify-content-between">
+        <div class="d-flex flex-column gap-3 flex-md-row justify-content-between">
           <!-- Noticias -->
-          <div class="d-flex flex-column gap-3">
+          <div class="d-flex flex-column gap-3 index-esquerda">
 
             <div class="d-flex align-items-center gap-3 border bg-light p-2">
               <img src="https://placehold.co/160x120" alt="" class="img-fluid">
@@ -204,7 +214,8 @@ include './includes/head/head.php'
 
           </div>
           <!-- Banners -->
-          <div class="d-flex flex-column gap-3">
+
+          <div class="d-flex flex-column gap-3 index-direita">
             <div class="d-flex gap-3">
               <img src="https://placehold.co/275x290" alt="" class="img-fluid rounded">
               <img src="https://placehold.co/275x290" alt="" class="img-fluid rounded">
