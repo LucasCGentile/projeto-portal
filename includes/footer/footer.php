@@ -50,12 +50,12 @@
           <div class="text-light pt-5 pt-lg-5 pb-5">
             <h3 class="fw-bolder pb-2">Baixe nosso App</h3>
             <div class="apple d-inline-flex align-items-center gap-2 lh-1 btn-app">
-              <i class="bi bi-apple"></i>
+              <i class="bi bi-apple bg-transparent text-light"></i>
               <p>Baixar no <br> App Store</p>
             </div>
 
             <div class="android d-inline-flex align-items-center gap-2 lh-1 btn-app">
-              <i class="bi bi-android2"></i>
+              <i class="bi bi-android2 bg-transparent text-light"></i>
               <p>Baixar no <br> Google Play</p>
             </div>
           </div>
@@ -64,10 +64,10 @@
           <div class="text-light pb-5">
             <h3 class="pb-2 fw-bolder">Redes Sociais</h3>
             <ul class="d-flex gap-4">
-              <li><a href="#"></a><i class="bi bi-facebook"></i></li>
-              <li><a href="#"></a><i class="bi bi-instagram"></i></li>
-              <li><a href="#"></a><i class="bi bi-youtube"></i></li>
-              <li><a href="#"></a><i class="bi bi-twitter-x"></i></li>
+              <li><a href="#"></a><i class="bi bi-facebook bg-transparent text-light"></i></li>
+              <li><a href="#"></a><i class="bi bi-instagram bg-transparent text-light"></i></li>
+              <li><a href="#"></a><i class="bi bi-youtube bg-transparent text-light"></i></li>
+              <li><a href="#"></a><i class="bi bi-twitter-x bg-transparent text-light"></i></li>
             </ul>
           </div>
         </div>
