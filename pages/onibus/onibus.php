@@ -14,13 +14,13 @@ include '../../includes/head/head.php';
       <div>
         <h1 class="title-header-bus">Horários de Ônibus <i class="bi bi-bus-front-fill"></i></h1>
       </div>
-      <div class="row">
-        <h2>Linhas Municipais</h2>
+      <div class="row card-home-bus-geral">
+        <h2 class="mt-5">Linhas Municipais</h2>
         <div class="col-lg-4 col-md-6 mt-3">
-          <div class="card card-link card-home-bus"><a class="card-link-home-bus" class="card-link-home-bus" href="./pages/municipais/canguera.php">Canguera</a></div>
+          <div class="card card-link card-home-bus"><a class="card-link-home-bus" href="./pages/municipais/canguera.php">Canguera</a></div>
         </div>
         <div class="col-lg-4 col-md-6 mt-3">
-          <div class="card card-link card-home-bus"><a class="card-link-home-bus" href="../pages/municipais/carmo.php">Carmo via Ponta Porã</a></div>
+          <div class="card card-link card-home-bus"><a class="card-link-home-bus" href="./pages/municipais/carmo.php">Carmo via Ponta Porã</a></div>
         </div>
         <div class="col-lg-4 col-md-6 mt-3">
           <div class="card card-link card-home-bus"><a class="card-link-home-bus" href="./pages/municipais/gabriel.php">Gabriel Piza</a></div>
@@ -74,7 +74,7 @@ include '../../includes/head/head.php';
           <div class="card card-link card-home-bus"><a class="card-link-home-bus" href="./pages/municipais/suica.php">Suíça</a></div>
         </div>
         <div class="col-lg-4 col-md-6 mt-3">
-          <div class="card card-link card-home-bus"><a class="card-link-home-bus" href="./pages/municipais/vila_suica.php">Vila Nova</a></div>
+          <div class="card card-link card-home-bus"><a class="card-link-home-bus" href="./pages/municipais/vila_nova.php">Vila Nova</a></div>
         </div>
 
         <h2 class="mt-5">Linhas Intermunicipais</h2>
