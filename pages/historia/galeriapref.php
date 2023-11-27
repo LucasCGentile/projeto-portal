@@ -262,7 +262,7 @@
   </div>
 
   <?php
-  include '../../htdocs/projeto-portal/includes/footer/footer.php'
+  include '../../includes/footer/footer.php'
   ?>
 
 </body>
