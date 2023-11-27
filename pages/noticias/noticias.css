@@ -6,10 +6,50 @@ small {
   font-size: 9px;
 }
 
+.purple-hover:hover {
+  color: var(--purple);
+}
+
+.noticia-1 {
+  background: url(./assets/images/noticia-1.jpeg);
+  background-size: cover;
+  height: 560px;
+  width: 540px;
+}
+
+.noticia-2 {
+  background: url(./assets/images/noticia-2.jpeg);
+  background-size: cover;
+  height: 250px;
+  width: 540px;
+}
+
+.noticia-3 {
+  background: url(./assets/images/noticia-3.jpeg);
+  background-size: cover;
+  height: 250px;
+  width: 540px;
+}
+
 .banner {
   background: url(../../assets/images/noticias-banner.jpeg);
   background-size: cover;
   background-position: bottom;
+}
+
+.btn-noticias {
+  color: var(--purple);
+  padding: 14px 34px;
+  background: #fff;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.btn-noticias:hover {
+  color: var(--purple);
+  border: 1px solid var(--purple);
 }
 
 .bg-now {
@@ -19,12 +59,16 @@ small {
 .img-resize-now {
   height: 100px;
   width: 100px;
-  background-size: cover;
-  background-position: bottom;
+  background-position: center;
+  object-fit: cover;
 }
 .card {
   height: 100px;
   width: 350px;
+}
+
+.card:hover {
+  color: var(--purple);
 }
 
 .card-text {
@@ -32,5 +76,6 @@ small {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: wrap;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: bold;
 }
