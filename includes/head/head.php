@@ -30,6 +30,9 @@
   <!-- Noticias -->
   <link rel="stylesheet" href="../../../projeto-portal/pages/noticias/noticias.css">
 
+<!-- Historia -->
+<link rel="stylesheet" href="../../../projeto-portal/pages/historia/meu.css">
+  
   <!-- Turismo -->
   <link rel="stylesheet" href="../../../projeto-portal/pages/turismo/turismo.css">
 

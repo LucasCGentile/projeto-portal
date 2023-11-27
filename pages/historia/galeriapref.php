@@ -2,22 +2,17 @@
 <html lang="PT-BR">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>card-prefeitos</title>
-  <link rel="stylesheet" href="npm i bootstrap-icons">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="meu.css">
+
   <?php
-  include './includes/head/head.php'
+  include '../../includes/header/header.php'
   ?>
 
 </head>
 
 <body>
   <?php
-  include './includes/header/header.php'
+  include '../../includes/header/header.php'
   ?>
 
   <div class="container text-center">
@@ -31,7 +26,7 @@
 
         <div class="card" style="width: 15rem;">
           <div class="card-body pref-card">
-            <img src="assets/prefissa.jpg" class="card-img-top" alt="...">
+            <img src="./assets/images/prefissa.jpg" class="card-img-top" alt="...">
             <h1 class="card-text">AUGUSTO ISSA</h1>
             <section class="container btn">
               <h2 class="text-center mandato">
@@ -45,7 +40,7 @@
       <div class="container text-center">
         <div class="card" style="width: 15rem;">
           <div class="card-body pref-card">
-            <img src="assets/prefgoes.jpg" class="card-img-top" alt="...">
+            <img src="./assets/images/prefgoes.jpg" class="card-img-top" alt="...">
             <h1 class="card-text">CLAUDIO GOÉS</h1>
             <section class="container btn">
               <h2 class="text-center mandato">
