@@ -5,7 +5,7 @@
   <title>card-prefeitos</title>
 
   <?php
-  include '../../includes/header/header.php'
+  include '../../includes/head/head.php'
   ?>
 
 </head>
