@@ -22,6 +22,7 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
             <ul class="dropdown-menu dropdown-content">
               <li><a class="dropdown-item fw-bold" href="../../../projeto-portal/pages/onibus/onibus.php?page=informacoes">Horário de Ônibus</a></li>
               <li><a class="dropdown-item fw-bold" href="../../../projeto-portal/pages/historia/historia.php?page=informacoes">História</a></li>
+              <li><a class="dropdown-item fw-bold" href="../../../projeto-portal/pages/historia/galeriapref.php?page=informacoes">Prefeitos</a></li>
             </ul>
           </li>
 
