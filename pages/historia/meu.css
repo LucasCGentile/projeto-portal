@@ -69,7 +69,11 @@
 }
 .iconesouv img{
     margin: 20px;
+    background-color: #421869;
+    border-radius: 30px;
 }
+
+
 .tabelaouv{
     background-color: #6A2B86;
     border-radius: 10px;
@@ -85,34 +89,11 @@
 
 }
 
-.chatouv{
+.iconesouvidoria{
     color:#80c423;
-    padding: 30px;
-}
-
-.emailouv{
-    color:#80c423;
-    padding: 30px;
-}
-
-.faceouv{
-    color:#80c423;
-    padding: 30px;
-}
-
-.wppouv{
-    color:#80c423;
-    padding: 30px;
-}
-
-.telouv{
-    color:#80c423;
-    padding: 30px;
-}
-
-.compartilheouv{
-    color:#80c423;
-    padding: 30px;
+    font-size: 70px;
+    margin: 30px;
+    background-color: white;
 }
 
 .tabelaouv ul li:hover{
