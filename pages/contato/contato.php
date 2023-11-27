@@ -80,14 +80,15 @@ include '../../includes/head/head.php'
     </p>
 
     <p class="text-center">
-      <strong>Endereço:</strong> Prefeitura de São Roque, rua São Paulo, numero 504.
+      <strong>Endereço:</strong> Rua São Paulo nº966, Taboão - São Roque CEP: 18135-125
     </p>
   </div>
 
-  <?php
-  include './includes/footer/footer.php/'
-  ?>
 </div>
+
+<?php
+include '../../includes/footer/footer.php'
+?>
 </body>
 
 </html>
