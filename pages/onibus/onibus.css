@@ -3,53 +3,48 @@
 /* bus line general page */
 
 .title-header-bus {
-  padding: 0px 10px 10px 10px;
-  border: 1px solid transparent;
-  border-radius: 5px;
-  background-color: #f2f4f4;
-  color: #2a454a;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	background-color: #f2f4f4;
+	color: #2a454a;
 }
 
 .link-title {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .bi {
-  background-color: #f2f4f4;
-  color: #6a2b86;
+	background-color: #f2f4f4;
+	color: #6a2b86;
 }
 
 /* bus line home page */
 .card-home-bus {
-  padding: 0px 10px 10px 10px;
-  background-color: #6a2b86;
-  font-size: 1.5rem;
+	padding: 10px 10px 10px 10px;
+	background-color: #6a2b86;
+	font-size: 1.5rem;
 }
 
 .card-link-home-bus {
-  background-color: #6a2b86;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.card-home-bus-geral{
-  margin-bottom: 2rem;
+	background-color: #6a2b86;
+	color: #ffffff;
+	text-decoration: none;
 }
 
 /* bus line indivudal page */
 /* destination panel card */
 
 .destination-panel {
-  background-color: #f2f4f4;
-  color: #000000;
-  padding: 0px;
-  text-decoration: none;
+	background-color: #f2f4f4;
+	color: #000000;
+	padding: 0px;
+	text-decoration: none;
 }
 .card-header-color {
-  background-color: #c98bb9;
+	background-color: #c98bb9;
 }
 
 .list-group-item-color {
-  background-color: #f2f4f4;
+	background-color: #f2f4f4;
 }
-

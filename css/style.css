@@ -1,23 +1,23 @@
 :root {
-  --bg-color: #e1e5e7;
-  --sbg-color: #f2f4f4;
-  --green: #80c423;
-  --purple: #6a2b86;
-  --font: "Inter", sans-serif;
-  --font-color: #2a454a;
+	--bg-color: #e1e5e7;
+	--sbg-color: #f2f4f4;
+	--green: #80c423;
+	--purple: #6a2b86;
+	--font: "Inter", sans-serif;
+	--font-color: #2a454a;
 }
 
 /* Style Reset */
 * {
-  font-family: var(--font);
+	font-family: var(--font);
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 li {
-  list-style-type: none;
+	list-style-type: none;
 }
 
 p,
@@ -28,6 +28,6 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
