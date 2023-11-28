@@ -8,8 +8,8 @@ include '../../includes/head/head.php'
 <body>
 
     <?php
-  include '../../includes/header/header.php'
-  ?>
+    include '../../includes/header/header.php'
+    ?>
 
     <main class="conatiner">
         <div>
@@ -57,7 +57,7 @@ include '../../includes/head/head.php'
                 <div class="row justify-content-evenly">
                     <!-- profile card Isaias -->
                     <div class="card p-0 col-lg-4 col-md-6 mt-3" style="width: 18rem;">
-                        <img src="images/isaias.png" class="card-img-top" alt="...">
+                        <img src="images/isaias.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Isaías Costa</h5>
                             <p class="card-text">"Programção não é tão fácil, como mostram no Tik Tok"</p>
@@ -79,8 +79,8 @@ include '../../includes/head/head.php'
     </main>
 
     <?php
-  include '../../includes/footer/footer.php'
-  ?>
+    include '../../includes/footer/footer.php'
+    ?>
 </body>
 
 </html>
