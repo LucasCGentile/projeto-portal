@@ -120,9 +120,9 @@
 	border: 1px solid red;
 }
 
-/* contato */
+/* PAGINA CONTATO */
 
-/* eventos */
+/* PAGINA EVENTOS */
 .facebook {
 	list-style: none;
 	margin-left: 25px;
@@ -178,7 +178,7 @@ a:hover {
 	color: #dabfbf;
 }
 
-/* história */
+/* PAGINA HISTÓRIA */
 .setor-pref {
 	display: flex;
 	margin: 50px;
@@ -327,7 +327,7 @@ a:hover {
 	}
 }
 
-/* notícias */
+/* PAGINA NOTÍCIAS */
 .bg-noticias {
 	background: url(./assets/images/noticias-background.png);
 }
@@ -410,7 +410,7 @@ small {
 	font-weight: bold;
 }
 
-/* onibus */
+/* PAGINA ÔNIBUS */
 /* bus line general page */
 
 .title-header-bus {
@@ -421,7 +421,7 @@ small {
 	color: #2a454a;
 }
 
-.link-title {
+.link-title-bus {
 	text-decoration: none;
 }
 
@@ -446,21 +446,30 @@ small {
 /* bus line indivudal page */
 /* destination panel card */
 
-.destination-panel {
+.destination-panel-bus {
 	background-color: #f2f4f4;
 	color: #000000;
 	padding: 0px;
 	text-decoration: none;
 }
-.card-header-color {
+.card-header-color-bus {
 	background-color: #c98bb9;
 }
 
-.list-group-item-color {
+.list-group-item-color-bus {
 	background-color: #f2f4f4;
+	text-decoration: none;
 }
 
-/* regras */
+/* PAGINA SOBRE NÓS */
+/* sobre nós pagina individual */
+
+.img-sobre-indi {
+	width: 300px;
+	height: 300px;
+}
+
+/* PAGINA REGRAS */
 .setor-pref {
 	display: flex;
 	margin: 50px;
@@ -627,7 +636,8 @@ small {
 	}
 }
 
-/* turismo */
+/* PAGINA TURISMO */
+
 .corpo {
 	background-color: #6a2b86;
 	display: flex;
