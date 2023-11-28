@@ -21,24 +21,6 @@
   <!-- Index -->
   <link rel="stylesheet" href="../../../projeto-portal/css/index.css">
 
-  <!-- Onibus -->
-  <link rel="stylesheet" href="../../../projeto-portal/pages/onibus/onibus.css">
-
-  <!-- Contato -->
-  <link rel="stylesheet" href="../../../projeto-portal/pages/contato/contato.css">
-
-  <!-- Noticias -->
-  <link rel="stylesheet" href="../../../projeto-portal/pages/noticias/noticias.css">
-
-<!-- Historia -->
-<link rel="stylesheet" href="../../../projeto-portal/pages/historia/meu.css">
-  
-  <!-- Turismo -->
-  <link rel="stylesheet" href="../../../projeto-portal/pages/turismo/turismo.css">
-
-  <!-- Eventos -->
-  <link rel="stylesheet" href="../../../projeto-portal/pages/eventos/eventos.css">
-
   <!-- Footer -->
   <link rel=" stylesheet" href="../../../projeto-portal/includes/footer/footer.css">
 </head>

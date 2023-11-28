@@ -10,8 +10,12 @@
           </figure>
 
           <div class="d-lg-flex flex-column order-1 history-text">
-            <h2 class="text-light text-center text-md-start pb-3 pb-lg-4 fw-bold">São Roque: A Terra do Vinho</h2>
-            <p class="text-light text-center text-md-start p-footer">Uma cidade de economia diversificada com atividades no segmento industrial, comercial e na área de serviços. Devido ao seu legado histórico e cultural, à sua exuberante natureza (40% do território do município é coberto por Mata Atlântica), o município foi elevado à condição de Estância Turística em 1990.</p>
+            <h2 class="text-light text-center text-md-start pb-3 pb-lg-4 fw-bold">São Roque: A Terra do Vinho
+            </h2>
+            <p class="text-light text-center text-md-start p-footer">Uma cidade de economia diversificada com
+              atividades no segmento industrial, comercial e na área de serviços. Devido ao seu legado
+              histórico e cultural, à sua exuberante natureza (40% do território do município é coberto por
+              Mata Atlântica), o município foi elevado à condição de Estância Turística em 1990.</p>
             <a href="">
               <p class="text-success text-center text-md-start fw-bold mt-4 mb-4">Continue Lendo...</p>
             </a>
@@ -154,4 +158,5 @@
 
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+  </script>

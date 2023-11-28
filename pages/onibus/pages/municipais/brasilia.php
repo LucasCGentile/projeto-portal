@@ -11,7 +11,7 @@ include '../../../../includes/head/head.php';
     include '../../../../includes/header/header.php';
     ?>
     <!-- end of header -->
-    
+
     <main>
         <div class="container">
             <!-- Header section  -->
