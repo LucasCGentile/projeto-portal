@@ -637,36 +637,45 @@ small {
 }
 
 /* PAGINA TURISMO */
-
-.corpo {
-	background-color: #6a2b86;
+.sec-turismo {
+	color: #421869;
+	text-align: center;
 	display: flex;
 	justify-content: center;
 }
-.container-turismo {
+
+.corpo-turismo {
+	background-color: #f2f4f4;
+	justify-content: center;
+}
+
+.container-turismonav {
 	display: flex;
 	justify-content: center;
-	width: 800px;
-	background-color: rgb(183, 191, 188);
+	width: 1080px;
+	background-color: #421869;
 	padding: 15px;
 	border-radius: 20px;
+	text-align: justify;
+
 }
 
-.card-turismo {
+.card-text-turismonav {
 	border-radius: 20px;
 	margin-left: 10px;
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 70px;
 	background-color: #fff;
 	flex: 1;
 	transition: 0.3s all ease;
 }
-.text-turismo {
+
+.card-text-turismonav {
 	justify-content: center;
 	display: flex;
 	align-items: center;
 }
-.card-turismo:hover {
+.cardttext-turismonav:hover {
 	flex: 2;
 	background-color: rgb(207, 207, 207);
 }
