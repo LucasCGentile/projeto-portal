@@ -19,7 +19,6 @@ include '../../includes/head/head.php'
       <div class="card-text-turismonav"><link rel="stylesheet" href="../../../projeto-portal/historia/historia.php">História da cidade</div>
       <div class="card-text-turismonav"><link rel="stylesheet" href="../../../projeto-portal/eventos/eventos.php">Eventos</div>
   </div>
-  <img src="..." class="card-img-bottom" alt="...">
 </div>
     <img src="https://placehold.co/1080x300" class="img-fluid" alt="imagem exemplo">
   </main>
