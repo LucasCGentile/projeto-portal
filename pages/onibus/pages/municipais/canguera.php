@@ -6,7 +6,7 @@ include '../../../../includes/head/head.php';
 ?>
 
 <body>
-    <!-- star of header -->
+    <!-- start of header -->
     <?php
     include '../../../../includes/header/header.php'
     ?>
@@ -484,8 +484,8 @@ include '../../../../includes/head/head.php';
         </div>
     </main>
     <?php
-  include '../../../../includes/footer/footer.php';
-  ?>
+    include '../../../../includes/footer/footer.php';
+    ?>
 
     </script>
 </body>
