@@ -20,16 +20,21 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 
           <li class="nav-item dropdown <?= ($page == 'informacoes') ? 'active' : '' ?>"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Informações </a>
             <ul class="dropdown-menu dropdown-content">
-              <li><a class="dropdown-item fw-bold" href="../../../projeto-portal/pages/onibus/onibus.php?page=informacoes">Horário de Ônibus</a></li>
-              <li><a class="dropdown-item fw-bold" href="../../../projeto-portal/pages/historia/historia.php?page=informacoes">História</a></li>
-              <li><a class="dropdown-item fw-bold" href="../../../projeto-portal/pages/historia/galeriapref.php?page=informacoes">Prefeitos</a></li>
+              <li><a class="dropdown-item fw-bold" href="../../../projeto-portal/pages/onibus/onibus.php?page=informacoes">Horário de
+                  Ônibus</a></li>
+              <li><a class="dropdown-item fw-bold" href="../../../projeto-portal/pages/historia/historia.php?page=informacoes">História</a>
+              </li>
+              <li><a class="dropdown-item fw-bold" href="../../../projeto-portal/pages/historia/galeriapref.php?page=informacoes">Prefeitos</a>
+              </li>
             </ul>
           </li>
 
           <li class="nav-item dropdown <?= ($page == 'eventos') ? 'active' : '' ?>"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Guia de Eventos </a>
             <ul class="dropdown-menu dropdown-content">
-              <li><a class="dropdown-item fw-bold" href="../../../projeto-portal/pages/turismo/turismo.php?page=eventos">Turismo</a></li>
-              <li><a class="dropdown-item fw-bold" href="../../../projeto-portal/pages/eventos/eventos.php?page=eventos">Eventos</a></li>
+              <li><a class="dropdown-item fw-bold" href="../../../projeto-portal/pages/turismo/turismo.php?page=eventos">Turismo</a>
+              </li>
+              <li><a class="dropdown-item fw-bold" href="../../../projeto-portal/pages/eventos/eventos.php?page=eventos">Eventos</a>
+              </li>
             </ul>
           </li>
 
@@ -43,7 +48,8 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 
           <li class="nav-item dropdown <?= ($page == 'contato') ? 'active' : '' ?>"><a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ouvidoria</a>
             <ul class="dropdown-menu dropdown-content">
-              <li><a class="dropdown-item fw-bold" href="../../../projeto-portal/pages/contato/contato.php?page=contato">Contato</a></li>
+              <li><a class="dropdown-item fw-bold" href="../../../projeto-portal/pages/contato/contato.php?page=contato">Contato</a>
+              </li>
             </ul>
           </li>
 

@@ -11,34 +11,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
 
-  <!-- Meu CSS -->
-  <!-- Geral -->
+  <!-- CSS -->
   <link rel="stylesheet" href="../../../projeto-portal/css/style.css">
-
-  <!-- Header -->
-  <link rel="stylesheet" href="../../../projeto-portal/includes/header/header.css">
-
-  <!-- Index -->
-  <link rel="stylesheet" href="../../../projeto-portal/css/index.css">
-
-  <!-- Onibus -->
-  <link rel="stylesheet" href="../../../projeto-portal/pages/onibus/onibus.css">
-
-  <!-- Contato -->
-  <link rel="stylesheet" href="../../../projeto-portal/pages/contato/contato.css">
-
-  <!-- Noticias -->
-  <link rel="stylesheet" href="../../../projeto-portal/pages/noticias/noticias.css">
-
-<!-- Historia -->
-<link rel="stylesheet" href="../../../projeto-portal/pages/historia/meu.css">
-  
-  <!-- Turismo -->
-  <link rel="stylesheet" href="../../../projeto-portal/pages/turismo/turismo.css">
-
-  <!-- Eventos -->
-  <link rel="stylesheet" href="../../../projeto-portal/pages/eventos/eventos.css">
-
-  <!-- Footer -->
-  <link rel=" stylesheet" href="../../../projeto-portal/includes/footer/footer.css">
 </head>

@@ -19,7 +19,7 @@
             <strong>GALERIA DE PREFEITOS</strong>
         </h1>
 
-        <div class="container text-center">
+        <div class="container text">
             <section class="setor-pref">
 
                 <div class="container text-center">
