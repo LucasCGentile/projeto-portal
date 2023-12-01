@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <?php
+$titulo = "Historia de São Roque";
 include '../../includes/head/head.php';
 ?>
 

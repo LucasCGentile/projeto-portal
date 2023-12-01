@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <?php
+$titulo = "São Roque x Araçariguama";
 include '../../../../includes/head/head.php'
 ?>
 

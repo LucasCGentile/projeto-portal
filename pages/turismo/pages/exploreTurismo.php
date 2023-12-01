@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <?php
+$titulo = "O Turismo em São Roque";
 include '../../includes/head/head.php'
 ?>
 

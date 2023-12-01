@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
+$titulo = "Eventos em São Roque";
 include '../../includes/head/head.php'
 ?>
 
@@ -9,31 +10,35 @@ include '../../includes/head/head.php'
   include '../../includes/header/header.php'
   ?>
   <main>
-  
+
     <div class="container">
       <section>
         <br>
-        <h4><p>Eventos acontecendo em São Roque em <b>OUTUBRO</b>:</p></h4>
+        <h4>
+          <p>Eventos acontecendo em São Roque em <b>OUTUBRO</b>:</p>
+        </h4>
         <br>
       </section>
-      
-            
-      <div class="container text-center" > 
+
+
+      <div class="container text-center">
         <button type="button" class="btn btn-outline-dark">OUTUBRO</button>
         <button type="button" class="btn btn-outline-dark">NOVEMBRO</button>
         <button type="button" class="btn btn-outline-dark">DEZEMBRO</button>
       </div>
-            
-      <div class="row" >
-        <div class="gallery-container" >
-          <a href="./pages/pisa.php" class="gallery-items"><img src="./assets/Rectangle 71.png" alt=" "> <br> <spam class="description">São Roque sedia o VII Encontro Paulista de Agroecologia</spam></a>
+
+      <div class="row">
+        <div class="gallery-container">
+          <a href="./pages/pisa.php" class="gallery-items"><img src="./assets/Rectangle 71.png" alt=" "> <br>
+            <spam class="description">São Roque sedia o VII Encontro Paulista de Agroecologia</spam>
+          </a>
           <a href="./pages/pisa.php" class="gallery-items"><img src="./assets/Rectangle 32.png" alt=" "><span class="description">Castramóvel realiza ação para pets no próximo fim de semana em Maylasky</span></a>
           <a href="./pages/pisa.php" class="gallery-items"><img src="./assets/Rectangle 72.png" alt=" "><span class="description">Feirão do Estância Supermercados acontece nesta terça em São Roque</span></a>
           <a href="./pages/pisa.php" class="gallery-items"><img src="./assets/Rectangle 73.png" alt=" "><span class="description">23ª Festival da Pisa da uva de São Roque, acontece no próximo final de semana em Camguera.</span></a>
           <a href="./pages/pisa.php" class="gallery-items"><img src="./assets/Rectangle 74.png" alt=" "><span class="description">Mercado Livre realiza novo feirão do emprego em São Roque</span></a>
           <a href="./pages/pisa.php" class="gallery-items"><img src="./assets/Rectangle 75.png" alt=" "><span class="description">Feira Permanente recebe, neste domingo, Feira de Adoção</span></a>
         </div>
-        
+
         <div class="calendario">
           <div class="month">
             <ul>
@@ -42,7 +47,7 @@ include '../../includes/head/head.php'
               <li>OUTUBRO<br><span style="font-size:12px">2023</span></li>
             </ul>
           </div>
-          
+
           <ul class="weekdays">
             <li>DOM</li>
             <li>SEG</li>
@@ -52,7 +57,7 @@ include '../../includes/head/head.php'
             <li>SEX</li>
             <li>SAB</li>
           </ul>
-          
+
           <ul class="days">
             <li>1</li>
             <li>2</li>
@@ -85,15 +90,15 @@ include '../../includes/head/head.php'
             <li>29</li>
             <li>30</li>
             <li>31</li>
-            
-          </ul>
-      </div>
-      
-      <br>
-      <br>
 
-      <div class="container">
-        <div class="row vejaMais">
+          </ul>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="container">
+          <div class="row vejaMais">
             <div class="col-lg-12">
               <h4>Veja Mais</h4>
             </div>
@@ -107,11 +112,11 @@ include '../../includes/head/head.php'
               Notícias: Qualifica São Roque Oferece Dois Novos Cursos de Capacitação Gratuitos para a População
             </div>
           </div>
+        </div>
+
       </div>
-          
-    </div>
-    
-</main>  
+
+  </main>
   <?php
   include '../../includes/footer/footer.php'
   ?>
