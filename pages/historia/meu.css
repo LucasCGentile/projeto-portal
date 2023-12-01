@@ -1,8 +1,10 @@
-
+.prefeitos{
+  padding-bottom: 150px;
+}
 .setor-pref{
     display: flex;
-    padding: 100px;
-    margin: 10px;
+    padding: 110px;
+    padding-right: 50px;
     
 }
 
