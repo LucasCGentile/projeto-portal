@@ -19,9 +19,12 @@
         <h1>
             <strong>GALERIA DE PREFEITOS</strong>
         </h1>
+        <h2 class="text-center">
+            Prefeitos recentes e seus anos de mandatos pela nossa cidade!
+        </h2>
 
         <div class="container text">
-            <section class="setor-pref">
+            <section class="setor-prefeitos">
 
                 <div class="container text-center">
                     <div class="card" style="width: 15rem;">
@@ -66,7 +69,7 @@
                 </div>
             </section>
 
-            <section class="setor-pref">
+            <section class="setor-prefeitos">
 
                 <div class="container text-center">
                     <div class="card" style="width: 15rem;">
@@ -112,7 +115,7 @@
 
 
             </section>
-            <section class="setor-pref">
+            <section class="setor-prefeitos">
 
                 <div class="container text-center">
                     <div class="card" style="width: 15rem;">
@@ -164,7 +167,7 @@
 
 
             </section>
-            <section class="setor-pref">
+            <section class="setor-prefeitos">
 
                 <div class="container text-center">
                     <div class="card" style="width: 15rem;">
@@ -211,7 +214,7 @@
 
             </section>
 
-            <section class="setor-pref">
+            <section class="setor-prefeitos">
 
                 <div class="container text-center">
                     <div class="card" style="width: 15rem;">
