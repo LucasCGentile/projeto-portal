@@ -2,16 +2,17 @@
 <html lang="pt-br">
 
 <?php
+$titulo = "São Roque x Saboó";
 include '../../../../includes/head/head.php'
 ?>
 
 <body>
     <!-- star of header -->
-        <?php
+    <?php
     include '../../../../includes/header/header.php'
     ?>
     <!-- end of header -->
-    
+
     <main>
         <div class="container">
             <!-- Header section  -->
@@ -408,8 +409,8 @@ include '../../../../includes/head/head.php'
                     </div>
                 </div>
 
-               <!-- Destination panel -->
-               <div class="col-md-12 col-sm-5 col-lg-4 mt-4">
+                <!-- Destination panel -->
+                <div class="col-md-12 col-sm-5 col-lg-4 mt-4">
                     <div>
                         <div class="card">
                             <div class="card-header card-header-color">Municipal</div>

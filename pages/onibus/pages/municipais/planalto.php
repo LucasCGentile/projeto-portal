@@ -2,16 +2,17 @@
 <html lang="pt-br">
 
 <?php
+$titulo = "São Roque x Planalto Verde";
 include '../../../../includes/head/head.php'
 ?>
 
 <body>
     <!-- star of header -->
-        <?php
+    <?php
     include '../../../../includes/header/header.php'
     ?>
     <!-- end of header -->
-    
+
     <main>
         <div class="container">
             <!-- Header section  -->
