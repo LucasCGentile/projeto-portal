@@ -18,7 +18,7 @@ include '../../includes/head/head.php'
         1. ULTILIZAÇÃO
     </h1>
     <p>
-        O VISITANTE ao utilizar o website dos <strong>Ursinhos carinhosos da VINGANÇA"</strong>, concorda integralmente em:
+        O VISITANTE ao utilizar o website dos <strong>A VINGANÇA DOS URSINHOS CARINHOSOS</strong>, concorda integralmente em:
 
         De nenhuma forma ou meio realizar qualquer tipo de ação que tente invadir, hacker, destruir ou prejudicar a estrutura do site, plataforma da EMPRESA ou de seus parceiros comerciais. Incluindo-se, mas não se limitando, ao envio de vírus de computador, de ataques de DDOS, de acesso indevido por falhas da mesma ou quaisquer outras forma e meio.
 
@@ -48,7 +48,7 @@ include '../../includes/head/head.php'
 
 </div>
 <?php
-include './includes/footer/footer.php'
+include '../../includes/footer/footer.php'
 ?>
 
 </body>
