@@ -259,15 +259,20 @@ a:hover {
 }
 
 /* ======================= PAGINA HISTÓRIA ======================= */
-.setor-pref {
-	display: flex;
-	margin: 50px;
-	padding: 50px;
-}
+.prefeitos{
+	padding-bottom: 150px;
+  }
+  .setor-pref{
+	  display: flex;
+	  padding: 110px;
+	  padding-right: 50px;
+	  
+  }
+  .trespref{
+	  display: block;
+  
+  }
 
-.trespref {
-	display: block;
-}
 
 .pref-card {
 	background-color: #421869;
