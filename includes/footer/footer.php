@@ -80,7 +80,7 @@
         <div class="d-md-none d-lg-block d-none d-flex">
           <div class="d-flex gap-5">
             <div class="p-4">
-              <h3 class="text-green mb-3 fs-20">Serviços <br> aos Cidadão</h3>
+              <h3 class="text-green mb-3 fw-bold fs-20">Serviços <br> aos Cidadão</h3>
               <ul>
                 <li><a class="text-light" href="#">Por Interessado</a></li>
                 <li><a class="text-light" href="#">Por Categoria</a></li>
@@ -90,7 +90,7 @@
             </div>
 
             <div class="p-4">
-              <h3 class="text-green mb-3 fs-20">Estrutura do <br> Governo</h3>
+              <h3 class="text-green mb-3 fw-bold fs-20">Estrutura do <br> Governo</h3>
               <ul>
                 <li><a class="text-light" href="#">Prefeito</a></li>
                 <li><a class="text-light" href="#">Secretarias</a></li>
@@ -102,7 +102,7 @@
 
           <div class="d-flex gap-3">
             <div class="p-4">
-              <h3 class="text-green mb-3 fs-20">Portal da <br> Transparencia</h3>
+              <h3 class="text-green mb-3 fw-bold fs-20">Portal da <br> Transparencia</h3>
               <ul>
                 <li><a class="text-light" href="#">Responsabilidade Fiscal</a></li>
                 <li><a class="text-light" href="#">Despesas e Receitas</a></li>
@@ -112,7 +112,7 @@
             </div>
 
             <div class="">
-              <h3 class="text-green mb-3 fs-20">Ouvidoria <br> Municipal</h3>
+              <h3 class="text-green mb-3 fw-bold fs-20">Ouvidoria <br> Municipal</h3>
               <ul>
                 <li><a class="text-light" href="#">Ouvidoria Geral</a></li>
                 <li><a class="text-light" href="#">SIC - Serviço de <br> Informação</a></li>
