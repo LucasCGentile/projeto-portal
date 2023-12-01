@@ -14,21 +14,13 @@ include '../../includes/head/head.php'
 
     <h1 class="text-center">NORMAS DE USO</h1>
 
-<<<<<<< HEAD
-<div class="normas container text-center">
-    <h1>
-        1. ULTILIZAÇÃO
-    </h1>
-    <p>
-        O VISITANTE ao utilizar o website dos <strong>A VINGANÇA DOS URSINHOS CARINHOSOS</strong>, concorda integralmente em:
-=======
+
     <div class="normas container text-center">
         <h1>
             1. ULTILIZAÇÃO
         </h1>
         <p>
             O VISITANTE ao utilizar o website dos <strong>Ursinhos carinhosos da VINGANÇA"</strong>, concorda integralmente em:
->>>>>>> 005265212db3f13fa276442c430aefe7e92d1ba3
 
             De nenhuma forma ou meio realizar qualquer tipo de ação que tente invadir, hacker, destruir ou prejudicar a estrutura do site, plataforma da EMPRESA ou de seus parceiros comerciais. Incluindo-se, mas não se limitando, ao envio de vírus de computador, de ataques de DDOS, de acesso indevido por falhas da mesma ou quaisquer outras forma e meio.
 
@@ -55,18 +47,13 @@ include '../../includes/head/head.php'
             O Site e plataforma funcionam normalmente 24 (vinte e quatro) horas por dia, porém podem ocorrer pequenas interrupções de forma temporária para ajustes, manutenção, mudança de servidores, falhas técnicas ou por ordem de força maior, que podem deixar o site indisponível por tempo limitado.
             <strong>A VINGANÇA DOS URSINHOS CARINHOSOS</strong> não se responsabiliza por nenhuma perda de oportunidade ou prejuízos que esta indisponibilidade temporária possa gerar aos usuários.
         </p>
-
-<<<<<<< HEAD
-</div>
-<?php
-include '../../includes/footer/footer.php'
-?>
-=======
+        
     </div>
+
+
     <?php
-    include './includes/footer/footer.php'
+    include '../../includes/footer/footer.php'
     ?>
->>>>>>> 005265212db3f13fa276442c430aefe7e92d1ba3
 
 </body>
 
