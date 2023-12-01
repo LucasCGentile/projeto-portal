@@ -1,12 +1,13 @@
+
 .setor-pref{
     display: flex;
-    margin: 50px;
-    padding: 50px;
+    padding: 100px;
+    margin: 10px;
     
 }
 
 .trespref{
-    display: block
+    display: block;
 
 }
 
