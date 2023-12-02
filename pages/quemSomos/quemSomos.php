@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <?php
+$titulo = "Quem Somos";
 include '../../includes/head/head.php'
 ?>
 

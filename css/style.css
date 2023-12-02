@@ -8,9 +8,9 @@
 }
 
 /* ======================================== Style Reset ======================================== */
-/* * {
-    font-family: var(--font);
-} */
+* {
+	font-family: var(--font);
+}
 
 a {
 	text-decoration: none;
@@ -56,17 +56,17 @@ h6 {
 }
 
 .dropdown-content a:hover {
-	color: #6a2b86;
+	color: var(--purple);
 	background-color: var(--bg-color);
 }
 
 a.active,
 li.active {
-	border-bottom: 3px solid purple;
+	border-bottom: 3px solid var(--purple);
 }
 
 .link:hover {
-	border-bottom: 3px solid purple;
+	border-bottom: 3px solid var(--purple);
 }
 
 @media (width <= 768px) {
@@ -78,6 +78,10 @@ li.active {
 	}
 }
 /* ======================================== FIM CSS Header ======================================== */
+.fs-12 {
+	font-size: 12px;
+}
+
 .fs-14 {
 	font-size: 14px;
 }
@@ -94,12 +98,12 @@ li.active {
 	font-size: 18px;
 }
 
-.w-180 {
-	width: 180px;
+.fs-20 {
+	font-size: 20px;
 }
 
-.no-wrap {
-	white-space: nowrap;
+.w-180 {
+	width: 180px;
 }
 
 .index-bg-main {
@@ -110,17 +114,28 @@ li.active {
 	background-color: var(--sbg-color);
 }
 
-.index-bg-services {
+.text-green {
+	color: var(--green);
+}
+
+.text-green-hover:hover {
+	color: var(--green);
+}
+
+.text-purple {
+	color: var(--purple);
+}
+
+.text-purple-hover:hover {
+	color: var(--purple);
+}
+
+.bg-green {
 	background-color: var(--green);
 }
 
-.left-content {
-	background-color: #6a2b86;
-}
-
-.card-size {
-	height: 124px;
-	width: 174px;
+.bg-purple {
+	background-color: var(--purple);
 }
 
 .icon {
@@ -131,7 +146,7 @@ li.active {
 	cursor: pointer;
 }
 
-.underline:hover {
+.underline-hover:hover {
 	text-decoration: underline;
 }
 
@@ -150,51 +165,42 @@ li.active {
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
-}
-
-.card-noticia {
-	width: 50%;
+	filter: brightness(50%);
 }
 
 .banner-noticia-2 {
 	height: 170px;
 }
 
-.card-noticia-2 {
+.card-noticia {
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
 		rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 	transition: border, 0.4s;
 }
 
-.card-noticia-2:hover {
+.card-noticia:hover {
 	color: var(--purple);
 	box-shadow: rgba(0, 0, 0, 0.3) 0px 20px 25px -5px,
 		rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
-.texto-noticia {
-	color: black;
-	padding-top: 220px;
-}
-
 .card-lateral {
 	width: 270px;
-	height: 270px;
 }
 
 @media (width >= 1024px) {
-	.index-esquerda {
+	.index-noticias-esquerda {
 		width: 50%;
 	}
-	.index-direita {
-		width: 50%;
-	}
-}
-@media (width <= 1024px) {
-	.img-resize {
+	.index-menu-direita {
 		width: 50%;
 	}
 }
+/* @media (width <= 1024px) {
+  .img-resize {
+    width: 50%;
+  }
+} */
 
 .borda {
 	border: 1px solid red;
@@ -259,12 +265,14 @@ a:hover {
 }
 
 /* ======================= PAGINA HISTÓRIA ======================= */
+.prefeitos {
+	padding-bottom: 150px;
+}
 .setor-pref {
 	display: flex;
-	margin: 50px;
-	padding: 50px;
+	padding: 110px;
+	padding-right: 50px;
 }
-
 .trespref {
 	display: block;
 }
@@ -412,9 +420,9 @@ a:hover {
 	background: url(./assets/images/noticias-background.png);
 }
 
-small {
-	font-size: 9px;
-}
+/* small {
+  font-size: 9px;
+} */
 
 .purple-hover:hover {
 	color: var(--purple);
@@ -497,8 +505,12 @@ small {
 	padding: 10px 10px 10px 10px;
 	border: 1px solid transparent;
 	border-radius: 5px;
-	background-color: var(--sbg-color);
-	color: var(--font-color);
+	background-color: #f2f4f4;
+	color: #2a454a;
+}
+
+.link-title-bus {
+	text-decoration: none;
 }
 
 .bi-bus-front-fill {
@@ -509,20 +521,32 @@ small {
 /* bus line home page */
 .card-home-bus {
 	padding: 5px 0px 5px 10px;
-	background-color: var(--purple);
+	background-color: #6a2b86;
 	font-size: 1.5rem;
 }
 
 .card-link-home-bus {
-	background-color: var(--purple);
+	background-color: #6a2b86;
 	color: #ffffff;
+	text-decoration: none;
 }
 
 /* bus line indivudal page */
-.card-individual-bus {
-	padding: 5px 0px 5px 10px;
-	background-color: var(--purple);
-	font-size: 1.5rem;
+/* --- destination panel card --- */
+
+.destination-panel-bus {
+	background-color: #f2f4f4;
+	color: #000000;
+	padding: 0px;
+	text-decoration: none;
+}
+.card-header-color-bus {
+	background-color: #c98bb9;
+}
+
+.list-group-item-color-bus {
+	background-color: #f2f4f4;
+	text-decoration: none;
 }
 /* ======================= PAGINA SOBRE NÓS ======================= */
 /* --- modal --- */

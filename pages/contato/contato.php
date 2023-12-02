@@ -2,6 +2,7 @@
 <html lang="PT-BR">
 
 <?php
+$titulo = "Contato - Prefeitura de São Roque";
 include '../../includes/head/head.php'
 ?>
 
