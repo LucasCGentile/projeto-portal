@@ -497,12 +497,8 @@ small {
 	padding: 10px 10px 10px 10px;
 	border: 1px solid transparent;
 	border-radius: 5px;
-	background-color: #f2f4f4;
-	color: #2a454a;
-}
-
-.link-title-bus {
-	text-decoration: none;
+	background-color: var(--sbg-color);
+	color: var(--font-color);
 }
 
 .bi-bus-front-fill {
@@ -513,34 +509,21 @@ small {
 /* bus line home page */
 .card-home-bus {
 	padding: 5px 0px 5px 10px;
-	background-color: #6a2b86;
+	background-color: var(--purple);
 	font-size: 1.5rem;
 }
 
 .card-link-home-bus {
-	background-color: #6a2b86;
+	background-color: var(--purple);
 	color: #ffffff;
-	text-decoration: none;
 }
 
 /* bus line indivudal page */
-/* --- destination panel card --- */
-
-.destination-panel-bus {
-	background-color: #f2f4f4;
-	color: #000000;
-	padding: 0px;
-	text-decoration: none;
+.card-individual-bus {
+	padding: 5px 0px 5px 10px;
+	background-color: var(--purple);
+	font-size: 1.5rem;
 }
-.card-header-color-bus {
-	background-color: #c98bb9;
-}
-
-.list-group-item-color-bus {
-	background-color: #f2f4f4;
-	text-decoration: none;
-}
-
 /* ======================= PAGINA SOBRE NÓS ======================= */
 /* --- modal --- */
 

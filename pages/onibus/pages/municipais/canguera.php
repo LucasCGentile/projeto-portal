@@ -8,7 +8,7 @@ include '../../../../includes/head/head.php';
 <body>
     <!-- start of header -->
     <?php
-    include '../../../../includes/header/header.php'
+    include '../../../../includes/header/header.php';
     ?>
     <!-- end of header -->
 
@@ -18,12 +18,12 @@ include '../../../../includes/head/head.php';
             <div class="row">
                 <div>
                     <div>
-                        <a class="link-title" href="../../onibus.php">
+                        <a class="text-decoration-none" href="../../onibus.php">
                             <h1 class="title-header-bus">Horários de Ônibus <i class="bi bi-bus-front-fill"></i></h1>
                         </a>
                     </div>
                     <div class="section-heading col-sm-8 col-md-8 col-lg-6">
-                        <h2>Canguera</h2>
+                        <h2 class="text-dark">Canguera</h2>
                         <p>Telefone para informações: (011) 4784-2770</p>
                         <p>Valor da passagem: R$ *****</p>
                         <p>Atualizado em 01/11/2023</p>
@@ -36,8 +36,7 @@ include '../../../../includes/head/head.php';
                     <!-- Weekday table  -->
                     <div class="col-sm-6 col-md-12 col-lg-8">
                         <h5>Segunda a Sextas-feiras</h5>
-                        <table
-                            class="table table-light table-hover table-bordered text-center align-middle table-bus-line">
+                        <table class="table table-light table-hover table-bordered text-center align-middle">
                             <caption>
                                 Horários de Ônibus do Bairro de Canguera de Segunda à
                                 Sexta-feira.
@@ -413,67 +412,67 @@ include '../../../../includes/head/head.php';
                 <div class="col-md-12 col-sm-5 col-lg-4 mt-4">
                     <div>
                         <div class="card">
-                            <div class="card-header card-header-color">Municipal</div>
-                            <ul class="destination-panel list-group list-group-flush">
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
-                                        href="../municipais/canguera.php">Canguera</a></li>
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                            <div class="card-header text-bg-success">Municipal</div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
+                                        href=" ../municipais/canguera.php">Canguera</a></li>
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../municipais/carmo.php">Carmo via Ponta Porã</a></li>
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../municipais/gabriel.php">Gabriel Piza</a></li>
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../municipais/guacu.php">Guaçu</a></li>
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../municipais/brasilia.php">Jd. Brasília - São Rafael</a></li>
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../municipais/mailasqui_vgp.php">Mailasqui - Vargem Grande </a></li>
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../municipais/mailasqui_vinhas.php">Maislasqui - Vinhas do Sol</a></li>
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../municipais/mont_serrat.php">Mont Serrat</a></li>
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../municipais/mosteiro.php">Mosteiro</a></li>
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../municipais/outlet.php">Outlet</a></li>
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../municipais/paisagem.php">Paisagem Colonial</a></li>
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../municipais/pq_alianca.php">Parque Aliança via Vila Amaral</a></li>
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../municipais/planalto.php">Planalto Verde (Darci Penteado)</a></li>
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../municipais/ponte_lavrada.php">Ponte Lavrada</a></li>
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../municipais/saboo.php">Saboó</a></li>
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../municipais/st_antonio.php">Santo Antônio</a></li>
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../municipais/sao_joao.php">São João Novo</a></li>
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../municipais/sorocamirim.php">Sorocamirim - Pavão</a></li>
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../municipais/suica.php">Suiça</a></li>
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../municipais/vila_nova.php">Vila Nova</a>
                                 </li>
                             </ul>
-                            <div class="card-header card-header-color">Intermunicipal</div>
+                            <div class="card-header text-bg-success">Intermunicipal</div>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../intermunicipais/aluminio.php">Alumínio</a></li>
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../intermunicipais/aracariguama.php">Araçariguama</a></li>
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../intermunicipais/cotia.php">Cotia</a></li>
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../intermunicipais/ibiuna.php">Ibiúna</a></li>
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../intermunicipais/itapevi.php">Itapevi</a></li>
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../intermunicipais/itu.php">Itu</a></li>
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../intermunicipais/mairinque.php">Mairinque</a></li>
-                                <li class="list-group-item list-group-item-color"><a class="destination-panel"
+                                <li class="list-group-item"><a class="text-decoration-none text-dark"
                                         href="../intermunicipais/sorocaba.php">Sorocaba</a>
                                 </li>
                             </ul>
