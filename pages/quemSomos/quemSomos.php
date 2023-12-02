@@ -246,6 +246,7 @@ include '../../includes/head/head.php'
                                                 gerencia a equipe.
                                             </p>
                                             <h4 class="mt-3 mb-2">Criações:</h4>
+                                            <a class="btn btn-nos" href="../../../projeto-portal/index.php" role="button">Home</a>
                                             <a class="btn btn-nos" href="../../../projeto-portal/pages/noticias/noticias.php" role="button">Noticias</a>
                                             <a class="btn btn-nos" href="#" role="button">Includes: Footer e Nav</a>
                                             <button type="button" class="btn btn-danger float-end" data-bs-dismiss="modal">Fechar</button>
