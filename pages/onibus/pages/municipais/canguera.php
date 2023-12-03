@@ -334,7 +334,7 @@ include '../../../../includes/head/head.php';
                     </div>
 
                     <!-- Sunday and holiday table  -->
-                    <div class="col-sm-6 col-md-12 col-lg-8">
+                    <div class="col-md-12 col-sm-5 col-lg-8">
                         <h5>Domingos e Feriados</h5>
                         <table class="table table-light table-hover table-bordered text-center align-middle">
                             <caption>
@@ -410,7 +410,7 @@ include '../../../../includes/head/head.php';
                 </div>
 
                 <!-- Destination panel -->
-                <div class="col-md-12 col-sm-5 col-lg-4 mt-4">
+                <div class="col-md-12 col-sm-4 col-lg-4 mt-4">
                     <div>
                         <div class="card">
                             <div class="card-header  text-bg-success">Municipal</div>
