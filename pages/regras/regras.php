@@ -12,11 +12,11 @@ include '../../includes/head/head.php'
     include '../../includes/header/header.php'
     ?>
 
-    <h1 class="text-center">NORMAS DE USO</h1>
+    <h1 class="text-center mt-5">NORMAS DE USO</h1>
 
 
     <div class="normas container text-center mb-5">
-        <h1>
+        <h1 class="mt-5 mb-3">
             1. ULTILIZAÇÃO
         </h1>
         <p>
@@ -39,7 +39,7 @@ include '../../includes/head/head.php'
             podendo a qualquer momento e forma, requerer a exclusão dos mesmos, através do formulário de contato.
         </p>
 
-        <h1>
+        <h1 class="mt-5 mb-3">
             2. DIREITOS AUTORAIS
         </h1>
 
@@ -52,7 +52,7 @@ include '../../includes/head/head.php'
             protegido. Este direito é revogável e limitado as especificações de cada caso.
         </p>
 
-        <h1>
+        <h1 class="mt-5 mb-3">
             3. ACESSO AO SITE
         </h1>
         <p>
