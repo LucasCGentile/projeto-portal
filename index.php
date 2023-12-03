@@ -20,31 +20,25 @@ include './includes/head/head.php'
         <div class="d-flex flex-column flex-lg-row justify-content-between gap-5">
 
           <!-- Lateral Esquerda -->
-          <div class="index-noticias-esquerda rounded-4 bg-purple">
-            <div class="noticia-principal mb-3">
-              <h2 class="fw-bolder text-white">São Roque abre inscrições para eleição do Conselho Municipal dos Direito da Juventude</h2>
+          <div class="index-noticias-esquerda rounded-4 bg-purple-dark">
+            <div class="d-relative t1">
+              <img class="img-fluid bg-bright rounded-top-4" src="./assets/images/index-noticia-1.jpg" alt="">
+              <h2 class=" fw-bolder text-white t2">São Roque abre inscrições para eleição do Conselho Municipal dos Direito da Juventude</h2>
             </div>
 
-            <div class="row">
-              <div class="col-12 col-lg-6 pointer">
-
-                <div class="m-0">
-                  <img class="img-fluid rounded me-3" src="./assets/images/index-noticia-3.jpeg" alt="">
-                </div>
-                <h2 class="fs-16 text-light fw-bold">Rotatória fixa será construída na região próxima à Tecama</h2>
-
+            <div class="row p-4">
+              <div class="col-12 col-lg-6 pointer ">
+                <img class="img-fluid rounded me-3 mb-3" src="./assets/images/index-noticia-2.jpg" alt="">
+                <h2 class="fs-16 text-light fw-bold">Prefeitura de São Roque autoriza ambulantes durante as festas de fim de ano</h2>
               </div>
 
-              <div class="col-12 col-lg-6 pointer">
-                <div class="">
-                  <div>
-                    <img class="img-fluid rounded me-3" src="./assets/images/index-noticia-3.jpeg" alt="">
-                  </div>
-                  <h2 class="fs-16 text-light fw-bold">Ginástica Rítmica encerra ano de atividades</h2>
-                </div>
+              <div class="col-12 col-lg-6 pointer ">
+                <img class="img-fluid rounded me-3 mb-3" src="./assets/images/index-noticia-3.jpg" alt="">
+                <h2 class="fs-16 text-light fw-bold">A equipe de ginástica artística de São Roque se destaca em Indaiatuba
+                </h2>
               </div>
+
             </div>
-
 
           </div>
 
@@ -95,61 +89,64 @@ include './includes/head/head.php'
 
                 <!-- Cards -->
                 <!-- Card 1 Linha -->
-                <div class="d-flex justify-content-around align-items-center text-center">
+                <div class="d-flex justify-content-between align-items-center gap-3 text-center">
 
                   <div class="d-flex flex-column justify-content-center
-                    align-items-center index-bg-secondary icon card-hover rounded-3 border py-3">
-                    <i class="bi bi-person-plus-fill bg-transparent"></i>
-                    <span class="fs-15 fw-bolder d-inline">Refis 2023</span>
+                    align-items-center index-bg-secondary card-hover rounded-3 border">
+                    <i class="bi bi-person-plus-fill icon"></i>
+                    <span class="fs-15 fw-bolder">Refis 2023</span>
                   </div>
+
                   <div class="d-flex flex-column justify-content-center
-                    align-items-center index-bg-secondary icon card-hover rounded-3 border py-3">
-                    <i class="bi bi-card-list bg-transparent"></i>
-                    <h3 class="fs-15 fw-bolder">Nota Fiscal <br> Eletronica</h3>
+                    align-items-center index-bg-secondary card-hover rounded-3 border">
+                    <i class="bi bi-card-list icon"></i>
+                    <h3 class="fs-15 fw-bolder">Nota Fiscal Eletronica</h3>
                   </div>
+
                   <div class="d-flex flex-column justify-content-center
-                    align-items-center index-bg-secondary icon card-hover rounded-3 border py-3">
-                    <i class="bi bi-person-plus-fill bg-transparent"></i>
-                    <h3 class="fs-15 fw-bolder">Portal do <br> Contribuinte</h3>
+                    align-items-center index-bg-secondary card-hover rounded-3 border">
+                    <i class="bi bi-person-plus-fill icon"></i>
+                    <h3 class="fs-15 fw-bolder">Portal do Contribuinte</h3>
                   </div>
+
                 </div>
 
                 <!-- Card 2 Linha -->
-                <div class="d-flex justify-content-around align-items-center text-center mt-2 mb-2">
+                <div class="d-flex justify-content-between align-items-center text-center gap-3 mt-2 mb-2">
 
                   <div class="d-flex flex-column justify-content-center
-                    align-items-center index-bg-secondary icon card-size card-hover rounded-3 border py-3">
-                    <i class="bi bi-house-door-fill bg-transparent"></i>
-                    <h3 class="fs-15 fw-bolder">Débitos - IPTU,ITU, <br> ITBI e ISS</h3>
+                    align-items-center index-bg-secondary card-hover rounded-3 border">
+                    <i class="bi bi-house-door-fill icon"></i>
+                    <h3 class="fs-15 fw-bolder">Débitos - IPTU,ITU, ITBI e ISS</h3>
                   </div>
                   <div class="d-flex flex-column justify-content-center
-                    align-items-center index-bg-secondary icon card-size card-hover rounded-3 border py-3">
-                    <i class="bi bi-book-half bg-transparent"></i>
-                    <h3 class="fs-15 fw-bolder">Diário Oficial e <br> Legislação</h3>
+                    align-items-center index-bg-secondary card-hover rounded-3 border">
+                    <i class="bi bi-book-half icon"></i>
+                    <h3 class="fs-15 fw-bolder">Diário Oficial e Legislação</h3>
                   </div>
                   <div class="d-flex flex-column justify-content-center
-                    align-items-center index-bg-secondary icon card-size card-hover rounded-3 border py-3">
-                    <i class="bi bi-clipboard2-check-fill bg-transparent"></i>
+                    align-items-center index-bg-secondary card-hover rounded-3 border">
+                    <i class="bi bi-clipboard2-check-fill icon"></i>
                     <h3 class="fs-15 fw-bolder">Concursos e Seleções</h3>
                   </div>
                 </div>
 
                 <!-- Card 3 Linha -->
-                <div class="d-flex justify-content-around align-items-center text-center">
+                <div class="d-flex justify-content-between align-items-center text-center gap-3">
                   <div class="d-flex flex-column justify-content-center
-                    align-items-center index-bg-secondary icon card-size card-hover rounded-3 border py-3">
-                    <i class="bi bi-check-lg bg-transparent"></i>
-                    <h3 class="fs-15 fw-bolder">Agendamento <br> Atende Fácil</h3>
+                    align-items-center index-bg-secondary card-hover rounded-3 border">
+                    <i class="bi bi-check-lg icon"></i>
+                    <h3 class="fs-15 fw-bolder">Agendamento Atende Fácil</h3>
                   </div>
                   <div class="d-flex flex-column justify-content-center
-                    align-items-center index-bg-secondary icon card-size card-hover rounded-3 border py-3">
-                    <i class="bi bi-person-plus-fill bg-transparent"></i>
-                    <h3 class="fs-15 fw-bolder">Agendamento SEFIN / <br> SEPLANH</h3>
+                    align-items-center index-bg-secondary card-hover rounded-3 border">
+                    <i class="bi bi-person-plus-fill icon"></i>
+                    <h3 class="fs-15 fw-bolder">Agendamento SEFIN / SEPLANH</h3>
                   </div>
                   <div class="d-flex flex-column justify-content-center
-                    align-items-center index-bg-secondary icon card-size card-hover rounded-3 border py-3">
-                    <i class="bi bi-house-door-fill bg-transparent"></i>
-                    <h3 class="fs-15 fw-bolder">Programa Municipal <br> de Habitação</h3>
+                    align-items-center index-bg-secondary card-hover rounded-3 border">
+                    <i class="bi bi-house-door-fill icon"></i>
+                    <h3 class="fs-15 fw-bolder">Programa Municipal de Habitação</h3>
                   </div>
                 </div>
               </div>
@@ -233,43 +230,43 @@ include './includes/head/head.php'
           <!-- Banners -->
           <div class="d-flex flex-column index-direita">
 
-            <div class="d-flex justify-content-center mb-3 ">
-              <div class="index-bg-main card-noticia p-3 pointer rounded-3">
+            <div class="d-flex gap-4 mb-3 ">
+              <div class="index-bg-main card-noticia p-3 pointer rounded-3 w-50p">
                 <img src="./assets/images/noticia-index-lateral1.jpg" alt="" class="img-fluid rounded-3 mb-2">
-                <p class="fs-18 fw-bold">Vem aí o SAEB 2023</p>
+                <p class="fs-18 fw-bold">Conheça o Sistema de Avaliação da Educação Básica (SAEB)</p>
               </div>
-              <div class="">
-                <img src="./assets/images/banner-index-1.webp" alt="" class="img-fluid pointer rounded-3">
-              </div>
+              <figure class="p-3 pointer rounded-3 w-50p">
+                <img src="./assets/images/banner-index-1.webp" alt="" class="img-fluid rounded-3 mb-2">
+              </figure>
             </div>
 
-            <div class="d-flex justify-content-center gap-4 mb-3">
-              <div class="">
+            <div class="d-flex gap-4 mb-3">
+              <figure class="p-3 pointer rounded-3 w-50p">
                 <img src="./assets/images/banner-index-2.webp" alt="" class="img-fluid pointer rounded-3">
-              </div>
-              <div class="bg-light card-noticia pointer p-3 rounded-3">
+              </figure>
+              <div class="bg-light card-noticia pointer p-3 rounded-3 w-50p">
                 <img src="./assets/images/noticia-index-lateral2.jpg" alt="" class="img-fluid rounded-3 mb-2">
                 <p class="fs-18 fw-bold">Mercado Livre realiza novo feirão do emprego em São Roque
                 </p>
               </div>
             </div>
 
-            <div class="d-flex justify-content-center gap-4 mb-3">
-              <div class=" bg-light card-noticia pointer p-3 rounded-3">
+            <div class="d-flex gap-4 mb-3">
+              <div class=" bg-light card-noticia pointer p-3 rounded-3 w-50p">
                 <img src="./assets/images/noticia-index-lateral3.jpg" alt="" class="img-fluid rounded-3 mb-2">
                 <p class="fs-18 fw-bold">Transporte da Saúde conta com novo número
                 </p>
               </div>
-              <div class="">
+              <figure class="p-3 pointer rounded-3 w-50p">
                 <img src="./assets/images/banner-index-3.webp" alt="" class="img-fluid pointer rounded-3">
-              </div>
+              </figure>
             </div>
 
-            <div class="d-flex justify-content-center gap-4 mb-3">
-              <div class="">
+            <div class="d-flex gap-4 mb-3">
+              <div class="w-50p">
                 <img src="./assets/images/banner-index-4.webp" alt="" class="img-fluid pointer rounded-3 ">
               </div>
-              <div class="bg-light card-noticia pointer p-3 rounded-3">
+              <div class="bg-light card-noticia pointer p-3 rounded-3 w-50p">
                 <img src="./assets/images/noticia-index-lateral4.jpg" alt="" class="img-fluid rounded-3 mb-2">
                 <p class="fs-18 fw-bold">Prefeitura de São Roque promove 3º Leilões Público Online de Imóveis
                 </p>
