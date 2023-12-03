@@ -268,7 +268,7 @@ a:hover {
 .prefeitos {
 	padding-bottom: 150px;
 }
-.setor-pref {
+.setor-prefeitos {
 	display: flex;
 	padding: 110px;
 	padding-right: 50px;
@@ -518,6 +518,10 @@ a:hover {
 	color: #6a2b86;
 }
 
+#color-text-title {
+	color: #6a2b86;
+}
+
 /* bus line home page */
 .card-home-bus {
 	padding: 5px 0px 5px 10px;
@@ -533,16 +537,6 @@ a:hover {
 
 /* bus line indivudal page */
 /* --- destination panel card --- */
-
-.destination-panel-bus {
-	background-color: #f2f4f4;
-	color: #000000;
-	padding: 0px;
-	text-decoration: none;
-}
-.card-header-color-bus {
-	background-color: #c98bb9;
-}
 
 .list-group-item-color-bus {
 	background-color: #f2f4f4;
