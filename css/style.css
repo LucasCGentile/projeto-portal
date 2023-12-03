@@ -2,7 +2,9 @@
   --bg-color: #e1e5e7;
   --sbg-color: #f2f4f4;
   --green: #80c423;
-  --purple: #6a2b86;
+  --purple: #340a46;
+  --purple-light: rgba(101, 41, 127, 0.5);
+  --blue-light: rgba(101, 101, 240, 0.5);
   --purple-dark: #4f2063;
   --font: "Inter", sans-serif;
   --font-color: #2a454a;
@@ -29,7 +31,8 @@ h3,
 h4,
 h5,
 h6,
-img {
+img,
+.row {
   margin: 0;
   padding: 0;
 }
@@ -80,6 +83,11 @@ li.active {
   }
 }
 /* ======================================== FIM CSS Header ======================================== */
+/* ======================================== CSS Custom ======================================== */
+.fs-9 {
+  font-size: 9px;
+}
+
 .fs-12 {
   font-size: 12px;
 }
@@ -104,8 +112,27 @@ li.active {
   font-size: 20px;
 }
 
-.w-180 {
-  width: 180px;
+.fs-26 {
+  font-size: 26px;
+}
+
+.fs-35 {
+  font-size: 35px;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+.fs-50 {
+  font-size: 50px;
+}
+
+.w-200 {
+  width: 200px;
+}
+.p-30 {
+  padding: 30px;
 }
 
 .w-50p {
@@ -124,6 +151,10 @@ li.active {
   color: var(--green);
 }
 
+.text-purple-light {
+  color: var(--purple-light);
+}
+
 .text-green-hover:hover {
   color: var(--green);
 }
@@ -140,16 +171,20 @@ li.active {
   background-color: var(--green);
 }
 
+.bg-blue-light {
+  background-color: var(--blue-light);
+}
+
 .bg-purple {
   background-color: var(--purple);
 }
 
-.bg-purple-dark {
-  background-color: var(--purple-dark);
+.bg-purple-light {
+  background-color: var(--purple-light);
 }
 
-.icon {
-  font-size: 40px;
+.bg-purple-dark {
+  background-color: var(--purple-dark);
 }
 
 .pointer {
@@ -173,19 +208,29 @@ li.active {
   filter: brightness(70%);
 }
 
-.t1 {
-  position: relative;
-  color: white;
-}
-
-.t2 {
+.absolute-bottom-left {
   position: absolute;
   bottom: 8px;
   left: 16px;
 }
 
-.banner-noticia-2 {
-  height: 170px;
+.absolute-bottom-left-noticias {
+  position: absolute;
+  bottom: 38px;
+  left: 26px;
+}
+
+.absolute-noticias-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner-noticia {
+  height: 100px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .card-noticia {
@@ -212,11 +257,6 @@ li.active {
     width: 50%;
   }
 }
-/* @media (width <= 1024px) {
-  .img-resize {
-    width: 50%;
-  }
-} */
 
 .borda {
   border: 1px solid red;

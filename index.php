@@ -21,9 +21,9 @@ include './includes/head/head.php'
 
           <!-- Lateral Esquerda -->
           <div class="index-noticias-esquerda rounded-4 bg-purple-dark">
-            <div class="d-relative t1">
+            <div class="position-relative">
               <img class="img-fluid bg-bright rounded-top-4" src="./assets/images/index-noticia-1.jpg" alt="">
-              <h2 class=" fw-bolder text-white t2">São Roque abre inscrições para eleição do Conselho Municipal dos Direito da Juventude</h2>
+              <h2 class=" fw-bolder text-white absolute-bottom-left">São Roque abre inscrições para eleição do Conselho Municipal dos Direito da Juventude</h2>
             </div>
 
             <div class="row p-4">
@@ -48,17 +48,17 @@ include './includes/head/head.php'
             <div class="text-light bg-green d-flex justify-content-around align-items-center gap-3 rounded-top pt-1 pb-1">
 
               <div class="d-flex flex-column justify-content-center align-items-center pointer underline-hover">
-                <i class="bi bi-info-circle-fill bg-transparent icon mb-2"></i>
+                <i class="bi bi-info-circle-fill bg-transparent fs-40 mb-2"></i>
                 <h3 class="fw-bold fs-15 text-center ">Portal da <br> Transparencia</h3>
               </div>
 
               <div class="d-flex flex-column justify-content-center align-items-center pointer underline-hover">
-                <i class="bi bi-bank2 bg-transparent icon mb-2"></i>
+                <i class="bi bi-bank2 bg-transparent fs-40 mb-2"></i>
                 <h3 class="fw-bold fs-15 text-center ">Secretarias e <br> Governos</h3>
               </div>
 
               <div class="d-flex flex-column justify-content-center align-items-center pointer underline-hover">
-                <i class="bi bi-gear-fill bg-transparent icon mb-2"></i>
+                <i class="bi bi-gear-fill bg-transparent fs-40 mb-2"></i>
                 <h3 class="fw-bold fs-15 text-center ">Portal de <br> Serviços</h3>
               </div>
 
@@ -93,19 +93,19 @@ include './includes/head/head.php'
 
                   <div class="d-flex flex-column justify-content-center
                     align-items-center index-bg-secondary card-hover rounded-3 border">
-                    <i class="bi bi-person-plus-fill icon"></i>
+                    <i class="bi bi-person-plus-fill fs-40"></i>
                     <span class="fs-15 fw-bolder">Refis 2023</span>
                   </div>
 
                   <div class="d-flex flex-column justify-content-center
                     align-items-center index-bg-secondary card-hover rounded-3 border">
-                    <i class="bi bi-card-list icon"></i>
+                    <i class="bi bi-card-list fs-40"></i>
                     <h3 class="fs-15 fw-bolder">Nota Fiscal Eletronica</h3>
                   </div>
 
                   <div class="d-flex flex-column justify-content-center
                     align-items-center index-bg-secondary card-hover rounded-3 border">
-                    <i class="bi bi-person-plus-fill icon"></i>
+                    <i class="bi bi-person-plus-fill fs-40"></i>
                     <h3 class="fs-15 fw-bolder">Portal do Contribuinte</h3>
                   </div>
 
@@ -116,17 +116,17 @@ include './includes/head/head.php'
 
                   <div class="d-flex flex-column justify-content-center
                     align-items-center index-bg-secondary card-hover rounded-3 border">
-                    <i class="bi bi-house-door-fill icon"></i>
+                    <i class="bi bi-house-door-fill fs-40"></i>
                     <h3 class="fs-15 fw-bolder">Débitos - IPTU,ITU, ITBI e ISS</h3>
                   </div>
                   <div class="d-flex flex-column justify-content-center
                     align-items-center index-bg-secondary card-hover rounded-3 border">
-                    <i class="bi bi-book-half icon"></i>
+                    <i class="bi bi-book-half fs-40"></i>
                     <h3 class="fs-15 fw-bolder">Diário Oficial e Legislação</h3>
                   </div>
                   <div class="d-flex flex-column justify-content-center
                     align-items-center index-bg-secondary card-hover rounded-3 border">
-                    <i class="bi bi-clipboard2-check-fill icon"></i>
+                    <i class="bi bi-clipboard2-check-fill fs-40"></i>
                     <h3 class="fs-15 fw-bolder">Concursos e Seleções</h3>
                   </div>
                 </div>
@@ -135,17 +135,17 @@ include './includes/head/head.php'
                 <div class="d-flex justify-content-between align-items-center text-center gap-3">
                   <div class="d-flex flex-column justify-content-center
                     align-items-center index-bg-secondary card-hover rounded-3 border">
-                    <i class="bi bi-check-lg icon"></i>
+                    <i class="bi bi-check-lg fs-40"></i>
                     <h3 class="fs-15 fw-bolder">Agendamento Atende Fácil</h3>
                   </div>
                   <div class="d-flex flex-column justify-content-center
                     align-items-center index-bg-secondary card-hover rounded-3 border">
-                    <i class="bi bi-person-plus-fill icon"></i>
+                    <i class="bi bi-person-plus-fill fs-40"></i>
                     <h3 class="fs-15 fw-bolder">Agendamento SEFIN / SEPLANH</h3>
                   </div>
                   <div class="d-flex flex-column justify-content-center
                     align-items-center index-bg-secondary card-hover rounded-3 border">
-                    <i class="bi bi-house-door-fill icon"></i>
+                    <i class="bi bi-house-door-fill fs-40"></i>
                     <h3 class="fs-15 fw-bolder">Programa Municipal de Habitação</h3>
                   </div>
                 </div>
