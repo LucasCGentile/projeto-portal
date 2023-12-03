@@ -9,7 +9,7 @@ include '../../../../includes/head/head.php';
 <body>
     <!-- start of header -->
     <?php
-    include '../../../../includes/header/header.php'
+    include '../../../../includes/header/header.php';
     ?>
     <!-- end of header -->
 
@@ -19,12 +19,12 @@ include '../../../../includes/head/head.php';
             <div class="row">
                 <div>
                     <div>
-                        <a class="link-title" href="../../onibus.php">
+                        <a class="text-decoration-none" href="../../onibus.php">
                             <h1 class="title-header-bus">Horários de Ônibus <i class="bi bi-bus-front-fill"></i></h1>
                         </a>
                     </div>
                     <div class="section-heading col-sm-8 col-md-8 col-lg-6">
-                        <h2>Canguera</h2>
+                        <h2 class="text-dark">Canguera</h2>
                         <p>Telefone para informações: (011) 4784-2770</p>
                         <p>Valor da passagem: R$ *****</p>
                         <p>Atualizado em 01/11/2023</p>
@@ -437,7 +437,7 @@ include '../../../../includes/head/head.php';
                                 <li class="list-group-item list-group-item-color"><a class="destination-panel" href="../municipais/vila_nova.php">Vila Nova</a>
                                 </li>
                             </ul>
-                            <div class="card-header card-header-color">Intermunicipal</div>
+                            <div class="card-header text-bg-success">Intermunicipal</div>
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item list-group-item-color"><a class="destination-panel" href="../intermunicipais/aluminio.php">Alumínio</a></li>
                                 <li class="list-group-item list-group-item-color"><a class="destination-panel" href="../intermunicipais/aracariguama.php">Araçariguama</a></li>
