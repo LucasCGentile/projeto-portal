@@ -5,12 +5,12 @@ $titulo = "Noticias de São Roque";
 include '../../includes/head/head.php';
 ?>
 
-<body>
+<body class="index-bg-main">
 
   <div class="container">
     <!-- Header da Area de Noticias -->
     <header class="d-md-none d-lg-block d-none justify-content-between d-md-none d-lg-block d-none p-3">
-      <div class="d-flex justify-content-between">
+      <div class="d-flex justify-content-between fs-14">
         <ul class="d-flex gap-3">
           <li><a href="../../index.php" class="fw-bold purple-hover">Site Principal</a></li>
           <li><a href="#" class="fw-bold purple-hover">Serviços</a></li>
@@ -19,9 +19,11 @@ include '../../includes/head/head.php';
 
 
         <ul class="d-flex gap-3">
-          <li><a href="#" class="fw-bold purple-hover"><i class="bi bi-facebook"></i> Facebook</a></li>
-          <li><a href="#" class="fw-bold purple-hover"><i class="bi bi-instagram"></i> Instagram</a></li>
-          <li><a href="#" class="fw-bold purple-hover"><i class="bi bi-youtube"></i> Youtube</a></li>
+          <li><a href="#" class="fw-bold purple-hover"><i class="bi bi-facebook text-primary"></i> Facebook</a></li>
+          <li><a href="#" class="fw-bold purple-hover"><i class="bi bi-instagram text-secondary"></i> Instagram</a></li>
+          <li><a href="#" class="fw-bold purple-hover"><i class="bi bi-youtube text-danger
+
+"></i> Youtube</a></li>
           <li><a href="#" class="fw-bold purple-hover"><i class="bi bi-twitter-x"></i> Twitter</a></li>
         </ul>
       </div>
@@ -30,31 +32,33 @@ include '../../includes/head/head.php';
 
 
   <div class="container">
-    <div class="pb-lg-3">
-      <nav class="container navbar navbar-expand-lg">
-        <div class="container-fluid fw-bold justify-content-between">
+
+    <div class="index-bg-main pb-lg-3">
+      <nav class="container navbar navbar-expand-lg ">
+        <div class="container-fluid fw-bold">
           <a class="navbar-brand d-lg-none" href="../../../projeto-portal/index.php">
             <img src="../../../projeto-portal/includes/header/assets/logo-sr-header.png" alt="img-fluid">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse py-2" id="navbarNav">
             <ul class="navbar-nav align-items-center mx-auto">
+
               <a class="navbar-brand d-none d-lg-block" href="../../../projeto-portal/index.php">
                 <img src="../../../projeto-portal/includes/header/assets/logo-sr-header.png" alt="logo-sao-roque" class="img-fluid">
               </a>
 
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../../../projeto-portal/index.php?page=home">Inicio</a>
+              <li class="nav-item  bg-darked rounded-5 me-3">
+                <a class="nav-link <?= ($page == 'home') ? 'active' : '' ?>" aria-current="page" href="../../../projeto-portal/index.php?page=home">Inicio</a>
               </li>
 
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../../../projeto-portal/pages/noticias/noticias.php">Noticias</a>
+              <li class="nav-item rounded-5 me-3">
+                <a class="nav-link <?= ($page == 'quemSomos') ? 'active' : '' ?>" href="../../../projeto-portal/pages/quemSomos/quemSomos.php?page=quemSomos">Noticias</a>
               </li>
 
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../../../projeto-portal/pages/regras/regras.php?page=regrasDeUso">Banco de imagens</a>
+              <li class="nav-item rounded-5">
+                <a class="nav-link <?= ($page == 'quemSomos') ? 'active' : '' ?>" href="../../../projeto-portal/pages/quemSomos/quemSomos.php?page=quemSomos">Banco de Imagens</a>
               </li>
 
             </ul>
@@ -66,20 +70,18 @@ include '../../includes/head/head.php';
     <!-- Banner -->
     <div class="banner rounded-4 mb-3 position-relative">
       <img src="./assets/images/noticias-banner.png" alt="" class="img-fluid rounded-4 banner-noticia">
-      <h3 class="text-light text-center p-3 fw-bolder absolute-noticias-center fs-26">Seja bem-vindo(a) à Agência de Notícias da Prefeitura de São Roque</h3>
+      <h3 class="text-light text-center p-3 fw-bolder absolute-noticias-center">Seja bem-vindo(a) à Agência de Notícias da Prefeitura de São Roque</h3>
     </div>
 
     <!-- Noticias -->
-    <div class="d-flex">
-      <div class="position-relative">
-        <img src="./assets/images/noticia-1.jpg" alt="" class="img-fluid">
-        <div class="absolute-bottom-left ">
-          <h1 class="fw-bold text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, minus.</h1>
-        </div>
+    <div class="d-flex flex-column flex-md-row justify-content-center gap-4">
+      <div class="d-flex pointer">
+        <img src="./assets/images/noticia-1.jpeg" alt="" class="img-fluid obj-cover rounded-4">
       </div>
-      <div>
-        <img src="./assets/images/noticia-.jpeg" alt="" class="img-fluid">
-        <img src="./assets/images/noticia3.jpeg" alt="" class="img-fluid">
+
+      <div class="d-flex flex-column gap-4">
+        <img src="./assets/images/noticia-2.jpeg" alt="" class="img-fluid obj-cover rounded-4 pointer">
+        <img src="./assets/images/noticia-3.jpeg" alt="" class="img-fluid obj-cover rounded-4 pointer">
       </div>
     </div>
 
@@ -100,7 +102,7 @@ include '../../includes/head/head.php';
         </section>
 
         <section class="col m-2 mb-5">
-          <div class=" card d-flex flex-row gap-3 bg-transparent border-0  pointer">
+          <div class=" card d-flex flex-row gap-3 bg-transparent border-0 pointer">
             <img src="./assets/images/noticia-5.jpeg" alt="" class="rounded-3 img-fluid img-resize-now">
             <div class="d-flex flex-column gap-1 p-1">
               <p class="card-text">Prefeitura de São Roque amplia número de praças e revitaliza espaços de lazer.</p>
@@ -268,14 +270,14 @@ include '../../includes/head/head.php';
     <div class="d-flex flex-column flex-xl-row justify-content-between gap-3">
 
       <div class="d-flex justify-content-center align-items-top gap-5">
-        <div class="rounded-4 bg-purple-light p-4">
+        <div class="rounded-4 bg-purple-light">
           <i class="bi bi-bookmark-star fs-50 text-purple-light"></i>
           <h3 class="fw-bold">Diário Oficial de São Roque</h3>
           <p class="mb-3">Consulta de documentos e publicações por Ano, Número e Assunto.</p>
           <button class="fw-bold border-0 rounded-4 py-1 px-3 text-light bg-purple-light underline-hover">Acesse <i class="bi bi-arrow-up-right"></i></button>
         </div>
 
-        <div class="rounded-4 bg-purple-light p-4">
+        <div class="rounded-4 bg-purple-light">
           <i class="bi bi-gear-fill fs-50 text-purple-light"></i>
           <h3 class="fw-bold fs-26">Portal de Serviços</h3>
           <p class="mb-3">Lista de todos os serviços oferecidos pelos órgãos públicos de São Roque.</p>
@@ -284,14 +286,14 @@ include '../../includes/head/head.php';
       </div>
 
       <div class="d-flex justify-content-center align-items-top gap-5">
-        <div class="rounded-4 bg-purple-light p-4">
+        <div class="rounded-4 bg-purple-light">
           <i class="bi bi-bookmark-star fs-50 text-purple-light"></i>
           <h3 class="fw-bold">Estrutura Organizacional</h3>
           <p class="mb-3">Os representantes e gestores de nosso município.</p>
           <button class="fw-bold border-0 rounded-4 py-1 px-3 text-light bg-purple-light underline-hover">Acesse <i class="bi bi-arrow-up-right"></i></button>
         </div>
 
-        <div class="rounded-4 bg-purple-light p-4">
+        <div class="rounded-4 bg-purple-light">
           <i class="bi bi-gear-fill fs-50 text-purple-light"></i>
           <h3 class="fw-bold fs-26">Portal da Transparencia</h3>
           <p class="mb-3">Acompanhe a execução orçamentária das ações do governo.</p>
@@ -304,22 +306,22 @@ include '../../includes/head/head.php';
 
   <div class="bg-purple">
     <footer class="container mt-5 text-light">
-      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+      <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center gap-3">
         <img src="../../includes/footer/assets/logo-sr-branco.png" alt="logo-prefeitura" class="img-fluid py-2">
 
-        <div>
-          <ul class="d-flex justify-content-center gap-5">
-            <li><a href="#"><i class="bi bi-facebook"></i> Facebook</a></li>
-            <li><a href="#"><i class="bi bi-instagram"></i> Instagram</a></li>
-            <li><a href="#"><i class="bi bi-youtube"></i> Youtube</a></li>
-            <li><a href="#"><i class="bi bi-twitter-x"></i> Twitter</a></li>
-          </ul>
-        </div>
+        <ul class="d-flex justify-content-center gap-5 text-center">
+          <li><a href="#"><i class="bi bi-facebook"></i> Facebook</a></li>
+          <li><a href="#"><i class="bi bi-instagram"></i> Instagram</a></li>
+          <li><a href="#"><i class="bi bi-youtube"></i> Youtube</a></li>
+          <li><a href="#"><i class="bi bi-twitter-x"></i> Twitter</a></li>
+        </ul>
 
-        <p>Desenvolvidor por:</p>
+        <p class="text-center">Desenvolvidor por:<br> <span class="fw-bold">A Vingança dos Ursinhos Carinhosos</span></p>
       </div>
     </footer>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
