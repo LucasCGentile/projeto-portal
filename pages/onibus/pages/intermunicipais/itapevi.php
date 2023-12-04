@@ -19,14 +19,14 @@ include '../../../../includes/head/head.php'
             <div class="row">
                 <div>
                     <div>
-                        <a class="link-title" href="../../onibus.php">
-                            <h1 class="title-header-bus">Horários de Ônibus <i class="bi bi-bus-front-fill"></i></h1>
+                        <a class="text-decoration-none" href="../../onibus.php">
+                            <h1>Horários de Ônibus <i class="bi bi-bus-front-fill"></i></h1>
                         </a>
                     </div>
                     <div class="section-heading col-sm-8 col-md-8 col-lg-6">
                         <h2>Itapevi</h2>
                         <p>Telefone para informações: (011) 4784-2770</p>
-                        <p>Valor da passagem: R$ *****</p>
+                        <p>Valor da passagem: R$ 8,90</p>
                         <p>Atualizado em 01/11/2023</p>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ include '../../../../includes/head/head.php'
                     <!-- Weekday table  -->
                     <div class="col-sm-6 col-md-12 col-lg-8">
                         <h5>Segunda a Sextas-feiras</h5>
-                        <table class="table table-light table-hover table-bordered text-center align-middle table-bus-line">
+                        <table class="table table-light table-hover table-bordered text-center align-middle">
                             <caption>
                                 Horários de Ônibus do Bairro de Itapevi de Segunda à
                                 Sexta-feira.
