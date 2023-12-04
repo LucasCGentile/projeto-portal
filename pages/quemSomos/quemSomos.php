@@ -49,12 +49,14 @@ include '../../includes/head/head.php'
                             <div class="modal-body">
                                 <div class="container">
                                     <figure class="mt-2">
-                                        <img class="img-sobre-indi rounded" src="images/camila.webp" alt="Camila está sentada em sua mesa de escritório, com a cabeça em suas mãos e os cotovelos apoiados na mesa. Com sorriso timido e misterioso, está de cabelos soltos e usando cacharrel na cor preta.">
+                                        <img class="rounded" src="images/camila.webp" alt="Camila está sentada em sua mesa de escritório, com a cabeça em suas mãos e os cotovelos apoiados na mesa. Com sorriso timido e misterioso, está de cabelos soltos e usando cacharrel na cor preta.">
                                     </figure>
                                     <div>
                                         <h1>Camila dos Santos Inácio da Silva</h1>
-                                        <p class="mt-2">Formada em Arquitetura, resolvi embarcar nesta jornada dos
-                                            códigos, na programação pois do GTA já manjo.
+                                        <p class="mt-2">
+                                            Graduada em Arquitetura, escolhi trilhar o caminho da programação,
+                                            aproveitando minha expertise em Design para agregar uma nova dimensão
+                                            aos meus conhecimentos.
                                         </p>
                                         <p class="mt-3">RA: 2650832223015</p>
                                         <p class="mt-3">Atribuição: Encarregada da organização de eventos na cidade e de
@@ -93,7 +95,7 @@ include '../../includes/head/head.php'
                             <div class="modal-body">
                                 <div class="container">
                                     <figure class="mt-2">
-                                        <img class="img-sobre-indi rounded" src="images/daniele.webp" alt="Daniele de frente, com sorriso timido, onde está usando filtro do Instagram que simula percing nos labios. De tranças nagô, está em um ambiente de claridade baixa, semelhante a um quarto.">
+                                        <img class="rounded" src="images/daniele.webp" alt="Daniele de frente, com sorriso timido, onde está usando filtro do Instagram que simula percing nos labios. De tranças nagô, está em um ambiente de claridade baixa, semelhante a um quarto.">
                                     </figure>
                                     <div>
                                         <h1>Daniele da Costa Silva</h1>
@@ -138,7 +140,7 @@ include '../../includes/head/head.php'
                             <div class="modal-body">
                                 <div class="container">
                                     <figure class="mt-2">
-                                        <img class="img-sobre-indi rounded" src="images/felipe.webp" alt="Felipe de frente, sorrindo com de braços cruzados sorrindo. Usando camiseta vermelha e boné para trás, em um ambiente de sol, e ao fundo um desfoque de uma monatanha verde.">
+                                        <img class="rounded" src="images/felipe.webp" alt="Felipe de frente, sorrindo com de braços cruzados sorrindo. Usando camiseta vermelha e boné para trás, em um ambiente de sol, e ao fundo um desfoque de uma monatanha verde.">
                                     </figure>
                                     <div>
                                         <h1>Felipe Santos Nascimento</h1>
@@ -191,7 +193,7 @@ include '../../includes/head/head.php'
                                 <div class="modal-body">
                                     <div class="container">
                                         <figure class="mt-2">
-                                            <img class="img-sobre-indi rounded align-iten-center" src="images/isaias.webp" alt="Isaias de perfil, de braços cruzados sorrindo. Usando camiseta branca em um ambiente levemente escuro, e corte de cabelo baixo">
+                                            <img class="rounded align-iten-center" src="images/isaias.webp" alt="Isaias de perfil, de braços cruzados sorrindo. Usando camiseta branca em um ambiente levemente escuro, e corte de cabelo baixo">
                                         </figure>
                                         <div>
                                             <h1>Isaías Batista da Costa</h1>
@@ -240,7 +242,7 @@ include '../../includes/head/head.php'
                                 <div class="modal-body">
                                     <div class="container">
                                         <figure class="mt-2">
-                                            <img class="img-sobre-indi rounded" src="images/lucas.webp" alt="Lucas de perfil, sorrindo com uma paisagem de sambambaia ao fundo, onde está usando seus óculos e camiseta preta.">
+                                            <img class="rounded" src="images/lucas.webp" alt="Lucas de perfil, sorrindo com uma paisagem de sambambaia ao fundo, onde está usando seus óculos e camiseta preta.">
                                         </figure>
                                         <div>
                                             <h1>Lucas Cresciulo Gentile</h1>
