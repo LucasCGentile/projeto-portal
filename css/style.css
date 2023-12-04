@@ -443,10 +443,11 @@ a:hover {
     float: left;
   }
 
-  .setor-pref {
+  .setor-prefeitos{
     display: block;
     margin: auto;
-    padding: 50px;
+    padding: 45px
+
   }
 
   .histdesr {

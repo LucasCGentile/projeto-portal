@@ -22,7 +22,7 @@
         </h2>
 
         <div class="container text">
-            <section class="setor-prefeitos">
+            <section class="setor-prefeitos flex-column">
 
                 <div class="container text-center">
                     <div class="card" style="width: 15rem;">
