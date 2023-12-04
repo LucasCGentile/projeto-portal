@@ -653,7 +653,7 @@ a:hover {
 	justify-content: center;
 }
 
-.container-turismonav {
+.nav-turismo {
 	display: flex;
 	justify-content: center;
 	width: 1080px;
@@ -663,7 +663,7 @@ a:hover {
 	text-align: justify;
 }
 
-.card-text-turismonav {
+.nav-itemturismo {
 	border-radius: 20px;
 	margin-left: 10px;
 	width: 80px;
@@ -673,14 +673,10 @@ a:hover {
 	transition: 0.3s all ease;
 }
 
-.card-text-turismonav {
+.nav-itemturismo {
 	justify-content: center;
 	display: flex;
 	align-items: center;
-}
-.cardttext-turismonav:hover {
-	flex: 2;
-	background-color: rgb(207, 207, 207);
 }
 
 /* ======================================== CSS Footer ======================================== */

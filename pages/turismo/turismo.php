@@ -11,28 +11,20 @@ include '../../includes/head/head.php'
   ?>
 
   <main class="row">
-    <h1 class="sec-turismo fluid">Secretaria de Turismo de São Roque</h1>
-    <div class="container-turismonav">
-      <div class="card-text-turismonav">
-        <link rel="stylesheet" href="#">Roteiro do Vinho
-      </div>
-      <div class="card-text-turismonav">
-        <link rel="stylesheet" href="#">Praça da Matriz
-      </div>
-      <div class="card-text-turismonav">
-        <link rel="stylesheet" href="#">Brasital
-      </div>
-      <div class="card-text-turismonav">
-        <link rel="stylesheet" href="#">Morro do Saboó
-      </div>
-      <div class="card-text-turismonav">
-        <link rel="stylesheet" href="../../../projeto-portal/historia/historia.php">História da cidade
-      </div>
-      <div class="card-text-turismonav">
-        <link rel="stylesheet" href="../../../projeto-portal/eventos/eventos.php">Eventos
-      </div>
-    </div>
-    </div>
+  <ul class="nav-turismo">
+  <li class="nav-itemturismo">
+    <a class="nav-link" href="#">Turismo</a>
+  </li>
+  <li class="nav-itemturismo">
+    <a class="nav-link" href="#">Pontos Turisticos</a>
+  </li>
+  <li class="nav-itemturismo">
+    <a class="nav-link" href="#">História</a>
+  </li>
+  <li class="nav-itemturismo">
+    <a class="nav-link" href="#">Eventos</a>
+  </li>
+</ul>
     <img src="https://placehold.co/1080x300" class="img-fluid" alt="imagem exemplo">
   </main>
 
