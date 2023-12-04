@@ -26,7 +26,7 @@ include '../../includes/head/head.php'
 
                 <!-- profile card Camila -->
                 <div class="p-0 col-lg-4 col-md-6 mt-3  border rounded border-dark-subtle" style="width: 18rem;">
-                    <img src="images/camila.jpg" class="card-img-top rounded-top" alt="Camila está sentada em sua mesa de escritório, com a cabeça em suas mãos e os cotovelos apoiados na mesa. Com sorriso timido e misterioso, está de cabelos soltos e usando cacharrel na cor preta.">
+                    <img src="images/camila.webp" class="card-img-top rounded-top" alt="Camila está sentada em sua mesa de escritório, com a cabeça em suas mãos e os cotovelos apoiados na mesa. Com sorriso timido e misterioso, está de cabelos soltos e usando cacharrel na cor preta.">
                     <div class="card-body ms-3 mt-3">
                         <h5 class="card-title">Camila Silva</h5>
                         <p class="card-text mt-2">"O AutoCad não chega aos pés do Xampp"</p>
@@ -48,7 +48,7 @@ include '../../includes/head/head.php'
                             <div class="modal-body">
                                 <div class="container">
                                     <figure class="mt-2">
-                                        <img class="img-sobre-indi rounded" src="images/camila.jpg" alt="Camila está sentada em sua mesa de escritório, com a cabeça em suas mãos e os cotovelos apoiados na mesa. Com sorriso timido e misterioso, está de cabelos soltos e usando cacharrel na cor preta.">
+                                        <img class="img-sobre-indi rounded" src="images/camila.webp" alt="Camila está sentada em sua mesa de escritório, com a cabeça em suas mãos e os cotovelos apoiados na mesa. Com sorriso timido e misterioso, está de cabelos soltos e usando cacharrel na cor preta.">
                                     </figure>
                                     <div>
                                         <h1>Camila dos Santos Inácio da Silva</h1>
@@ -71,7 +71,7 @@ include '../../includes/head/head.php'
 
                 <!-- profile card Daniela -->
                 <div class="p-0 col-lg-4 col-md-6 mt-3  border rounded border-dark-subtle" style="width: 18rem;">
-                    <img src="images/daniele.jpg" class="card-img-top rounded-top" alt="Daniele de frente, com sorriso timido, onde está usando filtro do Instagram que simula percing nos labios. De tranças nagô, está em um ambiente de claridade baixa, semelhante a um quarto.">
+                    <img src="images/daniele.webp" class="card-img-top rounded-top" alt="Daniele de frente, com sorriso timido, onde está usando filtro do Instagram que simula percing nos labios. De tranças nagô, está em um ambiente de claridade baixa, semelhante a um quarto.">
                     <div class="card-body ms-3 mt-3">
                         <h5 class="card-title">Daniele Costa</h5>
                         <p class="card-text mt-2">"Disposta a enfrentar novos desafios, todos os dias"</p>
@@ -92,7 +92,7 @@ include '../../includes/head/head.php'
                             <div class="modal-body">
                                 <div class="container">
                                     <figure class="mt-2">
-                                        <img class="img-sobre-indi rounded" src="images/daniele.jpg" alt="Daniele de frente, com sorriso timido, onde está usando filtro do Instagram que simula percing nos labios. De tranças nagô, está em um ambiente de claridade baixa, semelhante a um quarto.">
+                                        <img class="img-sobre-indi rounded" src="images/daniele.webp" alt="Daniele de frente, com sorriso timido, onde está usando filtro do Instagram que simula percing nos labios. De tranças nagô, está em um ambiente de claridade baixa, semelhante a um quarto.">
                                     </figure>
                                     <div>
                                         <h1>Daniele da Costa Silva</h1>
@@ -115,7 +115,7 @@ include '../../includes/head/head.php'
 
                 <!-- profile card Felipe -->
                 <div class="p-0 col-lg-4 col-md-6 mt-3  border rounded border-dark-subtle" style="width: 18rem;">
-                    <img src="images/felipe.jpg" class="card-img-top rounded-top" alt="Felipe de frente, sorrindo com de braços cruzados sorrindo. Usando camiseta vermelha e boné para trás, em um ambiente de sol, e ao fundo um desfoque de uma monatanha verde.">
+                    <img src="images/felipe.webp" class="card-img-top rounded-top" alt="Felipe de frente, sorrindo com de braços cruzados sorrindo. Usando camiseta vermelha e boné para trás, em um ambiente de sol, e ao fundo um desfoque de uma monatanha verde.">
                     <div class="card-body ms-3 mt-3">
                         <h5 class="card-title">Felipe Santos</h5>
                         <p class="card-text mt-2">"A cada ; esquecido, é um suspiro de: SOCORRO."</p>
@@ -136,7 +136,7 @@ include '../../includes/head/head.php'
                             <div class="modal-body">
                                 <div class="container">
                                     <figure class="mt-2">
-                                        <img class="img-sobre-indi rounded" src="images/felipe.jpg" alt="Felipe de frente, sorrindo com de braços cruzados sorrindo. Usando camiseta vermelha e boné para trás, em um ambiente de sol, e ao fundo um desfoque de uma monatanha verde.">
+                                        <img class="img-sobre-indi rounded" src="images/felipe.webp" alt="Felipe de frente, sorrindo com de braços cruzados sorrindo. Usando camiseta vermelha e boné para trás, em um ambiente de sol, e ao fundo um desfoque de uma monatanha verde.">
                                     </figure>
                                     <div>
                                         <h1>Felipe Santos Nascimento</h1>
@@ -167,7 +167,7 @@ include '../../includes/head/head.php'
 
                     <!-- profile card Isaías -->
                     <div class="p-0 col-lg-4 col-md-6 mt-3 border rounded border-dark-subtle" style="width: 18rem;">
-                        <img src="images/isaias.jpg" class="card-img-top rounded-top" alt="Isaias de perfil, de braços cruzados sorrindo. Usando camiseta branca em um ambiente levemente escuro, e corte de cabelo baixo">
+                        <img src="images/isaias.webp" class="card-img-top rounded-top" alt="Isaias de perfil, de braços cruzados sorrindo. Usando camiseta branca em um ambiente levemente escuro, e corte de cabelo baixo">
                         <div class="card-body ms-3 mt-3">
                             <h5 class="card-title">Isaías Costa</h5>
                             <p class="card-text mt-2">"Programção não é tão fácil, como mostram no Tik Tok."</p>
@@ -188,7 +188,7 @@ include '../../includes/head/head.php'
                                 <div class="modal-body">
                                     <div class="container">
                                         <figure class="mt-2">
-                                            <img class="img-sobre-indi rounded align-iten-center" src="images/isaias.jpg" alt="Isaias de perfil, de braços cruzados sorrindo. Usando camiseta branca em um ambiente levemente escuro, e corte de cabelo baixo">
+                                            <img class="img-sobre-indi rounded align-iten-center" src="images/isaias.webp" alt="Isaias de perfil, de braços cruzados sorrindo. Usando camiseta branca em um ambiente levemente escuro, e corte de cabelo baixo">
                                         </figure>
                                         <div>
                                             <h1>Isaías Batista da Costa</h1>
@@ -212,7 +212,7 @@ include '../../includes/head/head.php'
 
                     <!-- profile card Lucas -->
                     <div class="p-0 col-lg-4 col-md-6 mt-3 border rounded border-dark-subtle" style="width: 18rem;">
-                        <img src="images/lucas.jpeg" class="card-img-top rounded-top" alt="Lucas de perfil, sorrindo com uma paisagem de sambambaia ao fundo, onde está usando seus óculos e camiseta preta.">
+                        <img src="images/lucas.webp" class="card-img-top rounded-top" alt="Lucas de perfil, sorrindo com uma paisagem de sambambaia ao fundo, onde está usando seus óculos e camiseta preta.">
                         <div class="card-body ms-3 mt-3">
                             <h5 class="card-title">Lucas Gentile</h5>
                             <p class="card-text mt-2">"Me prometeram que programar era igual a receita de bolo."</p>
@@ -233,7 +233,7 @@ include '../../includes/head/head.php'
                                 <div class="modal-body">
                                     <div class="container">
                                         <figure class="mt-2">
-                                            <img class="img-sobre-indi rounded" src="images/lucas.jpeg" alt="Lucas de perfil, sorrindo com uma paisagem de sambambaia ao fundo, onde está usando seus óculos e camiseta preta.">
+                                            <img class="img-sobre-indi rounded" src="images/lucas.webp" alt="Lucas de perfil, sorrindo com uma paisagem de sambambaia ao fundo, onde está usando seus óculos e camiseta preta.">
                                         </figure>
                                         <div>
                                             <h1>Lucas Cresciulo Gentile</h1>
@@ -246,6 +246,7 @@ include '../../includes/head/head.php'
                                                 gerencia a equipe.
                                             </p>
                                             <h4 class="mt-3 mb-2">Criações:</h4>
+                                            <a class="btn btn-nos" href="../../../projeto-portal/index.php" role="button">Home</a>
                                             <a class="btn btn-nos" href="../../../projeto-portal/pages/noticias/noticias.php" role="button">Noticias</a>
                                             <a class="btn btn-nos" href="#" role="button">Includes: Footer e Nav</a>
                                             <button type="button" class="btn btn-danger float-end" data-bs-dismiss="modal">Fechar</button>

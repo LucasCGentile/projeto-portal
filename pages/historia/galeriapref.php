@@ -2,12 +2,10 @@
 <html lang="PT-BR">
 
 <head>
-    <title>card-prefeitos</title>
-
     <?php
     $titulo = "Galeria de Prefeitos de São Roque";
     include '../../includes/head/head.php'
-    ?>as
+    ?>
 
 </head>
 
@@ -15,7 +13,7 @@
     <?php
     include '../../includes/header/header.php'
     ?>
-    <div class="container prefeitos text-center">
+    <div class="container prefeitos text-center mt-5">
         <h1>
             <strong>GALERIA DE PREFEITOS</strong>
         </h1>
