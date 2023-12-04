@@ -263,6 +263,83 @@ li.active {
 }
 
 /* ======================= PAGINA CONTATO ======================= */
+.ouv-miolo {
+	display: flex;
+	margin: auto;
+}
+
+.ouv-miolo p {
+	margin: auto;
+	justify-content: left;
+	height: auto;
+}
+.iconesouv img {
+	margin: 20px;
+	background-color: #421869;
+	border-radius: 30px;
+}
+
+.tabelaouv {
+	background-color: #6a2b86;
+	border-radius: 10px;
+}
+
+.iconesouvidoria {
+	color: #80c423;
+	font-size: 50px;
+	margin: 30px;
+	background-color: white;
+}
+
+.tabelaouv {
+	background-color: #6a2b86;
+	border-radius: 10px;
+}
+
+.tabelaouv ul li {
+	color: white;
+	background-color: #6a2b86;
+}
+
+.infouvidoria p {
+	text-align: left;
+}
+
+.chatouv {
+	color: #80c423;
+	padding: 30px;
+}
+
+.emailouv {
+	color: #80c423;
+	padding: 30px;
+}
+
+.faceouv {
+	color: #80c423;
+	padding: 30px;
+}
+
+.wppouv {
+	color: #80c423;
+	padding: 30px;
+}
+
+.telouv {
+	color: #80c423;
+	padding: 30px;
+}
+
+.compartilheouv {
+	color: #80c423;
+	padding: 30px;
+}
+
+.tabelaouv ul li:hover {
+	color: white;
+	background-color: #80c423;
+	border-radius: 20px;
+}
 
 /* ======================= PAGINA EVENTOS ======================= */
 .facebook {
@@ -553,85 +630,6 @@ a:hover {
 .btn-nos:hover {
 	background-color: var(--green);
 	color: white;
-}
-
-/* ======================= PAGINA CONTATO ======================= */
-.ouv-miolo {
-	display: flex;
-	margin: auto;
-}
-
-.ouv-miolo p {
-	margin: auto;
-	justify-content: left;
-	height: auto;
-}
-.iconesouv img {
-	margin: 20px;
-	background-color: #421869;
-	border-radius: 30px;
-}
-
-.tabelaouv {
-	background-color: #6a2b86;
-	border-radius: 10px;
-}
-
-.iconesouvidoria {
-	color: #80c423;
-	font-size: 50px;
-	margin: 30px;
-	background-color: white;
-}
-
-.tabelaouv {
-	background-color: #6a2b86;
-	border-radius: 10px;
-}
-
-.tabelaouv ul li {
-	color: white;
-	background-color: #6a2b86;
-}
-
-.infouvidoria p {
-	text-align: left;
-}
-
-.chatouv {
-	color: #80c423;
-	padding: 30px;
-}
-
-.emailouv {
-	color: #80c423;
-	padding: 30px;
-}
-
-.faceouv {
-	color: #80c423;
-	padding: 30px;
-}
-
-.wppouv {
-	color: #80c423;
-	padding: 30px;
-}
-
-.telouv {
-	color: #80c423;
-	padding: 30px;
-}
-
-.compartilheouv {
-	color: #80c423;
-	padding: 30px;
-}
-
-.tabelaouv ul li:hover {
-	color: white;
-	background-color: #80c423;
-	border-radius: 20px;
 }
 
 /* ======================= PAGINA TURISMO ======================= */
