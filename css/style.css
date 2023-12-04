@@ -403,8 +403,9 @@ a:hover {
 }
 .setor-prefeitos {
 	display: flex;
-	padding: 110px;
-	padding-right: 50px;
+	justify-content: center;
+	justify-content: space-around;
+	padding: 100px;
 }
 .trespref {
 	display: block;
@@ -481,7 +482,7 @@ a:hover {
 	.setor-prefeitos {
 		display: block;
 		margin-top: 10px;
-		padding: 50px;
+		padding: 40px;
 
 	}
 

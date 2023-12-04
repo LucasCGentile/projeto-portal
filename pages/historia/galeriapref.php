@@ -21,15 +21,15 @@
             Prefeitos recentes e seus anos de mandatos pela nossa cidade!
         </h2>
 
-        <div class="container text">
+        <div class="container text-center">
             <section class="setor-prefeitos">
 
-                <section class="cartao-prefeito">
+                <section class="cartao-prefeito text-center">
 
-                    <div class="container text-center mb-4">
+                    <div class="container mb-4">
                         <div class="card" style="width: 15rem;">
                             <div class="card-body pref-card">
-                                <img src="./assets/images/prefissa.jpg" class="card-img-top" alt="...">
+                                <img src="./assets/images/prefissa.jpg" class="card-img-top" alt="FOTO DO PREFEITO GUTO ISSA">
                                 <h1 class="card-text">AUGUSTO ISSA</h1>
                                 <section class="container btn">
                                     <h2 class="text-center mandato">
