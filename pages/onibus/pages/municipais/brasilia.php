@@ -20,7 +20,7 @@ include '../../../../includes/head/head.php';
                 <div>
                     <div>
                         <a class="text-decoration-none" href="../../onibus.php">
-                            <h1>Horários de Ônibus <i class="bi bi-bus-front-fill"></i></h1>
+                            <h1 class="p-3 mb-2 bg-light text-dark rounded">Horários de Ônibus <i class="bi bi-bus-front-fill"></i></h1>
                         </a>
                     </div>
                     <div class="section-heading col-sm-8 col-md-8 col-lg-6">
