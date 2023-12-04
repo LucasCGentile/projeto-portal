@@ -3,13 +3,13 @@
 
 <?php
 $titulo = "São Roque x Mosteiro";
-include '../../../../includes/head/head.php'
+include '../../includes/head/head.php'
 ?>
 
 <body>
     <!-- star of header -->
     <?php
-    include '../../../../includes/header/header.php'
+    include '../../includes/header/header.php'
     ?>
     <!-- end of header -->
 
@@ -19,7 +19,7 @@ include '../../../../includes/head/head.php'
             <div class="row">
                 <div>
                     <div>
-                        <a class="text-decoration-none" href="../../onibus.php">
+                        <a class="text-decoration-none" href="./onibus.php">
                             <h1 class="p-3 mb-2 bg-light text-dark rounded">Horários de Ônibus <i class="bi bi-bus-front-fill"></i></h1>
                         </a>
                     </div>
@@ -474,11 +474,10 @@ include '../../../../includes/head/head.php'
         </div>
     </main>
     <!-- start of footer -->
-
+    <?php
+    include '../../includes/footer/footer.php';
+    ?>
     <!-- end of footer -->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-    </script>
 </body>
 
 </html>

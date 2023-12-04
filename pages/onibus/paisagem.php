@@ -2,14 +2,14 @@
 <html lang="pt-br">
 
 <?php
-$titulo = "São Roque x Parque Aliança";
-include '../../../../includes/head/head.php'
+$titulo = "São Roque x Paisagem Colonial";
+include '../../includes/head/head.php'
 ?>
 
 <body>
     <!-- star of header -->
     <?php
-    include '../../../../includes/header/header.php'
+    include '../../includes/header/header.php'
     ?>
     <!-- end of header -->
 
@@ -19,12 +19,12 @@ include '../../../../includes/head/head.php'
             <div class="row">
                 <div>
                     <div>
-                        <a class="text-decoration-none" href="../../onibus.php">
+                        <a class="text-decoration-none" href="./onibus.php">
                             <h1 class="p-3 mb-2 bg-light text-dark rounded">Horários de Ônibus <i class="bi bi-bus-front-fill"></i></h1>
                         </a>
                     </div>
                     <div class="section-heading col-sm-8 col-md-8 col-lg-6">
-                        <h2>Parque Aliança via Vila Amaral</h2>
+                        <h2>Paisagem Colonial</h2>
                         <p>Telefone para informações: (011) 4784-2770</p>
                         <p>Valor da passagem: R$ 3,25</p>
                         <p>Atualizado em 01/11/2023</p>
@@ -39,13 +39,13 @@ include '../../../../includes/head/head.php'
                         <h5>Segunda a Sextas-feiras</h5>
                         <table class="table table-light table-hover table-bordered text-center align-middle">
                             <caption>
-                                Horários de Ônibus do Bairro de Parque Aliança de Segunda à
+                                Horários de Ônibus do Bairro de Paisagem Colonial de Segunda à
                                 Sexta-feira.
                             </caption>
                             <thead>
                                 <tr>
                                     <th class="text-center align-middle ">Saída da Rodoviária</th>
-                                    <th class="text-center align-middle">Saída de Parque Aliança</th>
+                                    <th class="text-center align-middle">Saída de Paisagem Colonial</th>
                                     <th class="text-center align-middle">Observação</th>
                                 </tr>
                             </thead>
@@ -189,12 +189,12 @@ include '../../../../includes/head/head.php'
                         <h5>Sábados</h5>
                         <table class="table table-light table-hover table-bordered text-center align-middle">
                             <caption>
-                                Horários de Ônibus do Bairro de Parque Aliança de Sábado.
+                                Horários de Ônibus do Bairro de Paisagem Colonial de Sábado.
                             </caption>
                             <thead>
                                 <tr>
                                     <th class="text-center align-middle ">Saída da Rodoviária</th>
-                                    <th class="text-center align-middle ">Saída de Parque Aliança</th>
+                                    <th class="text-center align-middle ">Saída de Paisagem Colonial</th>
                                     <th class="text-center align-middle ">Observação</th>
                                 </tr>
                             </thead>
@@ -338,13 +338,13 @@ include '../../../../includes/head/head.php'
                         <h5>Domingos e Feriados</h5>
                         <table class="table table-light table-hover table-bordered text-center align-middle">
                             <caption>
-                                Horários de Ônibus do Bairro de Parque Aliança de Domingo e
+                                Horários de Ônibus do Bairro de Paisagem Colonial de Domingo e
                                 Feriado.
                             </caption>
                             <thead>
                                 <tr>
                                     <th class="text-center align-middle ">Saída da Rodoviária</th>
-                                    <th class="text-center align-middle ">Saída de Parque Aliança</th>
+                                    <th class="text-center align-middle ">Saída de Paisagem Colonial</th>
                                     <th class="text-center align-middle">Observação</th>
                                 </tr>
                             </thead>
@@ -474,11 +474,10 @@ include '../../../../includes/head/head.php'
         </div>
     </main>
     <!-- start of footer -->
-
+    <?php
+    include '../../includes/footer/footer.php';
+    ?>
     <!-- end of footer -->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-    </script>
 </body>
 
 </html>
