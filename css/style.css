@@ -477,20 +477,18 @@ a:hover {
 		float: left;
 	}
 
-<<<<<<< HEAD
-  .setor-prefeitos{
-    display: block;
-    margin: auto;
-    padding: 45px
 
-  }
-=======
 	.setor-prefeitos {
 		display: block;
-		margin: auto;
+		margin-top: 10px;
 		padding: 50px;
+
 	}
->>>>>>> 29fada4d1f6f94c4291fd3c047def0f8c4a3e610
+
+	.cartao-prefeito{
+		margin-bottom: 220px;
+	}
+
 
 	.histdesr {
 		margin: auto;
