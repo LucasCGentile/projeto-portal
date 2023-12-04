@@ -15,7 +15,7 @@ include '../../../projeto-portal/includes/head/head.php'
       <section>
         <br>
         <h4>
-          <p>23ª Festival da Pisa da uva de São Roque, acontece no próximo final de semana em Camguera.</p>
+          <p>São Roque sedia o VII Encontro Paulista de Agroecologia.</p>
         </h4>
         <br>
       </section>
@@ -30,17 +30,18 @@ include '../../../projeto-portal/includes/head/head.php'
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./assets/banner pisa da uva.jpg" class="d-block w-100" alt="...">
+            <img src="./assets/agroecologia1.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./assets/foto-de-corpo-inteiro-de-uma-garota-elegante-andando-e-sorrindo-nos-vinhedos.jpg" class="d-block w-100" alt="...">
+            <img src="./assets/agroecologia2.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./assets/crianca-pequena-no-vestido-vermelho.jpg" class="d-block w-100" alt="...">
+            <img src="./assets/agroecologia3.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./assets/agricultor-de-close-up-trabalhando.jpg" class="d-block w-100" alt="...">
+            <img src="./assets/agroecologia4.jpg" class="d-block w-100" alt="...">
           </div>
+          
         </div>
 
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -56,10 +57,10 @@ include '../../../projeto-portal/includes/head/head.php'
       </div>
 
       <div class="gallery-container-event col-md-6 col-lg-6 col-sm-12">
-        <img src="./assets/agricultor-de-close-up-trabalhando - small.jpg" alt=" ">
-        <img src="./assets/crianca-pequena-no-vestido-vermelho - small.jpg" alt=" ">
-        <img src="./assets/foto-de-corpo-inteiro-de-uma-garota-elegante-andando-e-sorrindo-nos-vinhedos - small.jpg" alt=" ">
-        <img src="./assets/banner pisa da uva - small.jpg" alt=" ">
+        <img src="./assets/agroecologia1 - small.jpg" alt=" ">
+        <img src="./assets/agroecologia2 - small.jpg" alt=" ">
+        <img src="./assets/agroecologia3 - small.jpg" alt=" ">
+        <img src="./assets/agroecologia4 - small.jpg" alt=" ">
       </div>
 
     </div>
@@ -67,7 +68,12 @@ include '../../../projeto-portal/includes/head/head.php'
 
     <br>
       <div class="container" > 
-        <p>Aos finais de semana, em São Roque, de 12 de janeiro e 27 de janeiro, a Adega e Restaurante Quinta do Olivardo realiza 23ª edição da tradicional Pisa da Uva, uma festa que resgata método artesanal de produzir vinho, mas que também é divertida para os pequenos.No dia 21 de janeiro o evento é especial para as crianças, já nos dias 26 de janeiro e 27 de janeiro o evento contempla toda família. Na chegada cada visitante recebe um chapéu de palha, tesoura e cesto e como faziam os antigos colonos, percorrem os caminhos formados pelas videiras para colher os cachos dos frutos.Depois, seguem para a pisa da uva que acontece no lagar, uma construção de pedras usada para o preparo do vinho, onde os frutos são pisados pelos participantes. Enquanto isso, um grupo folclórico anima o ambiente com músicas portuguesas, vestimentas da época e dança dos ritmos típicos de Portugal, informa a a organização do evento.“O método de amassar a uva com os pés agride bem menos as sementes da fruta se comparado com o processo industrial e isso faz toda a diferença no produto final. Vale muito conhecer e conferir essa experiência”, explica Olivardo Saqui, proprietário da Quinta.</p>
+        <p>Nos dias 03, 04 e 05 de novembro de 2023 São Roque, recebe o VII Encontro Paulista de Agroecologia. Este evento, que reune entusiastas, agricultores, pesquisadores e ativistas comprometidos com práticas agrícolas sustentáveis, destaca a importância crescente da agroecologia na busca por um modelo agrícola mais equitativo e ambientalmente responsável. Os participantes compartilharão experiências, conhecimentos e inovações, promovendo o intercâmbio de ideias que impulsionam a transformação positiva no setor agrícola da região. O encontro não apenas fortalece os laços da comunidade agroecológica, mas também inspira novas abordagens para a produção de alimentos que respeitam a natureza e promovem a saúde tanto do solo quanto das pessoas. São Roque, com sua hospitalidade acolhedora, serve como anfitriã ideal para esse encontro vital, evidenciando o compromisso compartilhado com um futuro agrícola mais sustentável e consciente. </p>
+        <br>
+
+        <p><b>Local do evento:</b> Instito Federal de São Paulo.
+        Rodovia Prefeito Quintino de Lima, 2100 - Paisagem Colonial, São Roque - SP, 18145-090
+        </p>
       </div>
             
       

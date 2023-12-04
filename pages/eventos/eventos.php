@@ -29,7 +29,7 @@ include '../../includes/head/head.php'
 
       <div class="row">
         <div class="gallery-container">
-          <a href="./pisa.php" class="gallery-items"><img src="./assets/Rectangle 71.png" alt=" "> <br>
+          <a href="./agroecologia.php" class="gallery-items"><img src="./assets/Rectangle 71.png" alt=" "> <br>
             <spam class="description">São Roque sedia o VII Encontro Paulista de Agroecologia</spam>
           </a>
           <a href="./pisa.php" class="gallery-items"><img src="./assets/Rectangle 32.png" alt=" "><span class="description">Castramóvel realiza ação para pets no próximo fim de semana em Maylasky</span></a>
