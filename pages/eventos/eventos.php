@@ -33,9 +33,9 @@ include '../../includes/head/head.php'
             <spam class="description">São Roque sedia o VII Encontro Paulista de Agroecologia</spam>
           </a>
           <a href="./castramovel.php" class="gallery-items"><img src="./assets/Rectangle 32.png" alt=" "><span class="description">Castramóvel realiza ação para pets no próximo fim de semana em Maylasky</span></a>
-          <a href="./pisa.php" class="gallery-items"><img src="./assets/Rectangle 72.png" alt=" "><span class="description">Feirão do Estância Supermercados acontece nesta terça em São Roque</span></a>
+          <a href="./estancia.php" class="gallery-items"><img src="./assets/Rectangle 72.png" alt=" "><span class="description">Feirão do Estância Supermercados acontece nesta terça em São Roque</span></a>
           <a href="./pisa.php" class="gallery-items"><img src="./assets/Rectangle 73.png" alt=" "><span class="description">23ª Festival da Pisa da uva de São Roque, acontece no próximo final de semana em Camguera.</span></a>
-          <a href="./pisa.php" class="gallery-items"><img src="./assets/Rectangle 74.png" alt=" "><span class="description">Mercado Livre realiza novo feirão do emprego em São Roque</span></a>
+          <a href="./mercado.php" class="gallery-items"><img src="./assets/Rectangle 74.png" alt=" "><span class="description">Mercado Livre realiza novo feirão do emprego em São Roque</span></a>
           <a href="./adocao.php" class="gallery-items"><img src="./assets/Rectangle 75.png" alt=" "><span class="description">Feira Permanente recebe, neste domingo, Feira de Adoção</span></a>
         </div>
 
