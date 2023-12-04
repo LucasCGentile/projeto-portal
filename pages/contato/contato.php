@@ -8,20 +8,16 @@ include '../../includes/head/head.php'
 
 <body>
     <?php
-  include '../../includes/header/header.php'
-  ?>
-    <div class="container">
-
-
+    include '../../includes/header/header.php'
+    ?>
+    <div class="container mt-5 mb-5">
         <img src="assets/goes.jpg" class="img-fluid rounded-5 mb-4"
             alt="foto do céu em uma atração turistica em são roque, com pessoas no canto direito e a vinicola goes a esquerda">
-
-
         <h1 class="container text-center">
             <strong>OUVIDORIA E CONTATOS</strong>
         </h1>
 
-        <div class="ouvidoria container mb-5">
+        <div class="ouvidoria container">
             <div class="ouv-miolo">
 
                 <div class=" tabelaouv container" style="width: 18rem; height: 19rem">
@@ -74,7 +70,7 @@ include '../../includes/head/head.php'
 
             </div>
 
-            <h1 class="text-center mt-5 mb-3">
+            <h1 class="text-center mt-5 mb-3 ">
                 INFORMAÇÕES ADICIONAIS
             </h1>
 
@@ -94,8 +90,8 @@ include '../../includes/head/head.php'
     </div>
 
     <?php
-  include '../../includes/footer/footer.php'
-  ?>
+    include '../../includes/footer/footer.php'
+    ?>
 </body>
 
 </html>
