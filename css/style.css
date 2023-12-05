@@ -770,10 +770,10 @@ a:hover {
   background-color: #421869;
   padding: 15px;
   border-radius: 20px;
-  text-align: justify;
+  text-align: center;
 }
 
-.nav-itemturismo {
+.turismonav-item{
   border-radius: 20px;
   margin-left: 10px;
   width: 80px;
@@ -783,11 +783,16 @@ a:hover {
   transition: 0.3s all ease;
 }
 
-.nav-itemturismo {
+.turismonav-item {
   justify-content: center;
   display: flex;
   align-items: center;
+  text-align: center;
+  color: #340a46;
+  font-weight: bold;
 }
+
+
 
 /* ======================================== CSS Footer ======================================== */
 .about-city-bg {

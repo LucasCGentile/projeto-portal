@@ -17,7 +17,7 @@ include '../../includes/head/head.php'
 
     <div class="normas container text-center mb-5">
         <h1 class="mt-5 mb-3">
-            1. ULTILIZAÇÃO
+            1. UTILIZAÇÃO
         </h1>
         <p>
             O VISITANTE ao utilizar o website dos <strong>Ursinhos carinhosos da VINGANÇA"</strong>, concorda
