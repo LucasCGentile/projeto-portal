@@ -50,6 +50,7 @@ include '../../includes/head/head.php'
                                 <div class="container">
                                     <figure class="mt-2">
                                         <img class="rounded" src="images/camila.webp" alt="Camila está sentada em sua mesa de escritório, com a cabeça em suas mãos e os cotovelos apoiados na mesa. Com sorriso timido e misterioso, está de cabelos soltos e usando cacharrel na cor preta.">
+                                        <img class="rounded ms-5" src="images/florzinha.webp" alt=".">
                                     </figure>
                                     <div>
                                         <h1>Camila dos Santos Inácio da Silva</h1>
@@ -96,6 +97,7 @@ include '../../includes/head/head.php'
                                 <div class="container">
                                     <figure class="mt-2">
                                         <img class="rounded" src="images/daniele.webp" alt="Daniele de frente, com sorriso timido, onde está usando filtro do Instagram que simula percing nos labios. De tranças nagô, está em um ambiente de claridade baixa, semelhante a um quarto.">
+                                        <img class="rounded ms-5" src="images/animadinha.webp" alt=".">
                                     </figure>
                                     <div>
                                         <h1>Daniele da Costa Silva</h1>
@@ -141,6 +143,7 @@ include '../../includes/head/head.php'
                                 <div class="container">
                                     <figure class="mt-2">
                                         <img class="rounded" src="images/felipe.webp" alt="Felipe de frente, sorrindo com de braços cruzados sorrindo. Usando camiseta vermelha e boné para trás, em um ambiente de sol, e ao fundo um desfoque de uma monatanha verde.">
+                                        <img class="rounded ms-5" src="images/divertido.webp" alt=".">
                                     </figure>
                                     <div>
                                         <h1>Felipe Santos Nascimento</h1>
@@ -194,6 +197,7 @@ include '../../includes/head/head.php'
                                     <div class="container">
                                         <figure class="mt-2">
                                             <img class="rounded align-iten-center" src="images/isaias.webp" alt="Isaias de perfil, de braços cruzados sorrindo. Usando camiseta branca em um ambiente levemente escuro, e corte de cabelo baixo">
+                                            <img class="rounded ms-5" src="images/sorte.webp" alt=".">
                                         </figure>
                                         <div>
                                             <h1>Isaías Batista da Costa</h1>
@@ -243,6 +247,7 @@ include '../../includes/head/head.php'
                                     <div class="container">
                                         <figure class="mt-2">
                                             <img class="rounded" src="images/lucas.webp" alt="Lucas de perfil, sorrindo com uma paisagem de sambambaia ao fundo, onde está usando seus óculos e camiseta preta.">
+                                            <img class="rounded ms-5" src="images/zangadinho.webp" alt=".">
                                         </figure>
                                         <div>
                                             <h1>Lucas Cresciulo Gentile</h1>
