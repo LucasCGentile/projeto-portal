@@ -7,8 +7,8 @@ include '../../includes/head/head.php'
 
 <body class="index-bg-main">
     <?php
-  include '../../includes/header/header.php'
-  ?>
+    include '../../includes/header/header.php'
+    ?>
     <main class="container">
         <h1 class="sec-turismo">Secretaria de Turismo de São Roque</h1>
         <div class="container d-flex justify-content-center mt-4 mb-4">
@@ -31,9 +31,10 @@ include '../../includes/head/head.php'
             </ul>
         </div>
 
-        <img src="#" alt="imagem do morro do Saboó de são roque">
+        <img class="rounded mx-auto d-block img-fluid tupper" src="./images/morro.webp"
+            alt="imagem do morro do Saboó de são roque">
 
-        <h1 class="title-turismo mb-4 mt-5">Morro do Saboó de São Roque</h1>
+        <h1 class="title-turismo mb-4 mt-5 text-center">Morro do Saboó de São Roque</h1>
 
         <p class="content-turismo fs-5 mb-3">Também conhecido como morro do Dinossauro ou Dragão, é dono de muitas
             lendas que rodeiam a cidade de São Roque e são passadas de geração em geração. Aos que moram aqui,
@@ -53,8 +54,8 @@ include '../../includes/head/head.php'
     </main>
 
     <?php
-  include '../../includes/footer/footer.php'
-  ?>
+    include '../../includes/footer/footer.php'
+    ?>
 </body>
 
 </html>

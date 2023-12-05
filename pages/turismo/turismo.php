@@ -31,12 +31,12 @@ include '../../includes/head/head.php'
       </ul>
     </div>
     <figure>
-      <img class="rounded mx-auto d-block img-fluid tupper" src="./images/home-turismoimg.jpeg" alt="imagem de são roque via drone">
-      <figcaption class="text-center">Imagem de São Roque via drone</figcaption>
+      <img class="rounded mx-auto d-block img-fluid tupper" src="./images/portal-sr.webp" alt="Imagem do Portal da cidade de São Roque.">
+      <figcaption class="text-center">Imagem do Portal da cidade de São Roque.</figcaption>
     </figure>
 
 
-    <h1 class="title-turismo mb-4 mt-5">Seja bem vindo à São Roque!</h1>
+    <h1 class="title-turismo mb-4 mt-5 text-center">Seja bem vindo à São Roque!</h1>
 
     <p class="content-turismo fs-5 mb-5">Uma cidade repleta de pontos históricos, eventos e cercada por uma flora
       rica em

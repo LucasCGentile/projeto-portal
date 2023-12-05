@@ -296,7 +296,7 @@ li.active {
 	color: #80c423;
 	font-size: 50px;
 	margin: 30px;
-	background-color: white;
+	background-color: var(--bg-color);
 }
 
 .tabelaouv {
@@ -751,6 +751,11 @@ a:hover {
 }
 
 /* ======================= PAGINA TURISMO ======================= */
+
+.tupper {
+	width: 800px;
+	height: 400px;
+}
 
 .sec-turismo {
 	color: #421869;

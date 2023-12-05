@@ -31,9 +31,9 @@ include '../../includes/head/head.php'
       </ul>
     </div>
 
-    <img src="#" alt="imagem do morro do Saboó de são roque">
+    <img class="rounded mx-auto d-block img-fluid tupper" src="./images/brasital.webp" alt="imagem do morro do Saboó de são roque">
 
-    <h1 class="title-turismo mb-4 mt-5">Brasital de São Roque</h1>
+    <h1 class="title-turismo mb-4 mt-5 text-center">Brasital de São Roque</h1>
 
     <p class="content-turismo fs-5 mb-3">Uma das primeiras industrias do Estado de São Paulo, a Brasital, hoje é
       considerada

@@ -31,12 +31,12 @@ include '../../includes/head/head.php'
       </ul>
     </div>
 
-    <img src="#" alt="imagem do roteiro do vinho em são roque">
+    <img class="rounded mx-auto d-block img-fluid tupper" src="./images/mapa.webp" alt="mapa do roteiro do vinho em são roque">
 
-    <h1 class="title-turismo mb-4 mt-5">Roteiro do Vinho de São Roque</h1>
+    <h1 class="title-turismo mb-4 mt-5 text-center">Roteiro do Vinho de São Roque</h1>
 
-    <p class="content-turismo fs-5 mb-3">CFrequentado não somente pelos apreciadores de vinho, o Roteiro do Vinho em
-      são Roque
+    <p class="content-turismo fs-5 mb-3">Frequentado não somente pelos apreciadores de vinho, o Roteiro do Vinho em
+      São Roque
       é um trajeto criado para lembrar da história e tradições da cidade de São Roque. Lugar perfeito para
       apreciar vinhos deliciosos e a natureza, conta com uma extensa variedade de restaurantes e hotéis.
     </p>
