@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <?php
-$titulo = "Turismo em São Roque";
+$titulo = "Pontos Turisticos de São Roque";
 include '../../includes/head/head.php'
 ?>
 
@@ -30,21 +30,23 @@ include '../../includes/head/head.php'
         </li>
       </ul>
     </div>
-    <figure>
-      <img class="rounded mx-auto d-block img-fluid tupper" src="./images/home-turismoimg.jpeg" alt="imagem de são roque via drone">
-      <figcaption class="text-center">Imagem de São Roque via drone</figcaption>
-    </figure>
 
+    <img src="#" alt="imagem do roteiro do vinho em são roque">
 
-    <h1 class="title-turismo mb-4 mt-5">Seja bem vindo à São Roque!</h1>
+    <h1 class="title-turismo mb-4 mt-5">Roteiro do Vinho de São Roque</h1>
 
-    <p class="content-turismo fs-5 mb-5">Uma cidade repleta de pontos históricos, eventos e cercada por uma flora
-      rica em
-      muita beleza.
-      Aqui você encontrará em destaque os principais pontos turísticos da cidade, conhecerá sobre a história da
-      nossa cidade e ficará por dentro de todos os eventos que irão ocorrer!
+    <p class="content-turismo fs-5 mb-3">CFrequentado não somente pelos apreciadores de vinho, o Roteiro do Vinho em
+      são Roque
+      é um trajeto criado para lembrar da história e tradições da cidade de São Roque. Lugar perfeito para
+      apreciar vinhos deliciosos e a natureza, conta com uma extensa variedade de restaurantes e hotéis.
     </p>
+    <div class="mb-5">
+      <h2 class="complement-turismo">Como chegar:</h2>
+      <h2 class="complement-turismo">Dias de Visitação:</h2>
+      <h2 class="complement-turismo">Horários:</h2>
+    </div>
   </main>
+
   <?php
   include '../../includes/footer/footer.php'
   ?>
