@@ -6,7 +6,7 @@ $titulo = "Regras de Uso";
 include '../../includes/head/head.php'
 ?>
 
-<body>
+<body class="index-bg-main">
 
     <?php
     include '../../includes/header/header.php'

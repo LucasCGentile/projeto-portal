@@ -6,7 +6,7 @@ $titulo = "Historia de São Roque";
 include '../../includes/head/head.php';
 ?>
 
-<body>
+<body class="index-bg-main">
     <?php
     include '../../includes/header/header.php'
     ?>
@@ -16,8 +16,7 @@ include '../../includes/head/head.php';
 
         <section class="histdesr container text-center">
 
-            <img src="./assets/images/cavalos.jpg" class="rounded"
-                alt="Homens praticando esporte com cavalos em uma praça onde em volta tem casas, foto antiga com qualidade baixa.">
+            <img src="./assets/images/cavalos.jpg" class="rounded" alt="Homens praticando esporte com cavalos em uma praça onde em volta tem casas, foto antiga com qualidade baixa.">
 
             <p> São Roque foi fundada por um nobre capitão paulista Pedro Vaz de Barros em 16 de Agosto de 1657, um
                 homem religioso que decidiu batizar sua terra com o nome de um santo da religiao catolica. Tambem
@@ -35,8 +34,7 @@ include '../../includes/head/head.php';
 
         <section class="histdesr container text-center">
 
-            <img src="./assets/images/busãoitapevi.jpg" class="rounded"
-                alt="Foto de uma rua bem movimentada com pessoas na rua e um onubus anttigo do trajeto itapevi para são roque">
+            <img src="./assets/images/busãoitapevi.jpg" class="rounded" alt="Foto de uma rua bem movimentada com pessoas na rua e um onubus anttigo do trajeto itapevi para são roque">
 
             <p> Com esse crescimento, a mão de obra foi ficando escassa, assim, os bandeirantes que habitavam aquelas
                 regiões recorreram a importação de escravos africanos, aumentando a produtuvidade e diversidade onde
@@ -49,12 +47,9 @@ include '../../includes/head/head.php';
         </section>
 
         <div class="imghist container text-center">
-            <img src="./assets/images/matriz.jpg" class="rounded"
-                alt="foto da igreja matriz localizada na praça principal de são roque com uma faixada escrito'bem-vindo a São Roque">
-            <img src="./assets/images/rua.jpg" class="rounded"
-                alt="Foto de uma rua calma no centro de são roque, onde a estrada é de terra e tem varias casas simples e um carro parado a esquerda ">
-            <img src="./assets/images/festamatriz.jpg" class="rounded"
-                alt="Registro de uma festa nos anos 50 na praça da matriz em são roque, no centro está posicionado um brinquedo de um parque de diversoes onde muitas pessoas estão na fila">
+            <img src="./assets/images/matriz.jpg" class="rounded" alt="foto da igreja matriz localizada na praça principal de são roque com uma faixada escrito'bem-vindo a São Roque">
+            <img src="./assets/images/rua.jpg" class="rounded" alt="Foto de uma rua calma no centro de são roque, onde a estrada é de terra e tem varias casas simples e um carro parado a esquerda ">
+            <img src="./assets/images/festamatriz.jpg" class="rounded" alt="Registro de uma festa nos anos 50 na praça da matriz em são roque, no centro está posicionado um brinquedo de um parque de diversoes onde muitas pessoas estão na fila">
         </div>
 
         <div class="container text-center">
@@ -67,8 +62,7 @@ include '../../includes/head/head.php';
                     secretaria da agricultura, gerou empregos e desenvolvendo e fortalecendo a economia de São Roque.
                     Assim se inicia o titulo "Terra do Vinho", trazendo os turistas para apreciar nossos belissimos
                     campos e atrações </p>
-                <img src="./assets/images/capela.jpg" class="rounded"
-                    alt="imagem de uma capela sendo constrída, a primeira igreja de são roque.">
+                <img src="./assets/images/capela.jpg" class="rounded" alt="imagem de uma capela sendo constrída, a primeira igreja de são roque.">
 
 
             </section>

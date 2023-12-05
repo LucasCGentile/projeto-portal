@@ -9,7 +9,7 @@
 
 </head>
 
-<body>
+<body class="index-bg-main">
     <?php
     include '../../includes/header/header.php'
     ?>

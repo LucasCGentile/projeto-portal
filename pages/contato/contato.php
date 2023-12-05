@@ -6,13 +6,12 @@ $titulo = "Contato - Prefeitura de São Roque";
 include '../../includes/head/head.php'
 ?>
 
-<body>
+<body class="index-bg-main">
     <?php
     include '../../includes/header/header.php'
     ?>
     <div class="container mt-5 mb-5">
-        <img src="assets/goes.jpg" class="img-fluid rounded-5 mb-4"
-            alt="foto do céu em uma atração turistica em são roque, com pessoas no canto direito e a vinicola goes a esquerda">
+        <img src="assets/goes.jpg" class="img-fluid rounded-5 mb-4" alt="foto do céu em uma atração turistica em são roque, com pessoas no canto direito e a vinicola goes a esquerda">
         <h1 class="container text-center">
             <strong>OUVIDORIA E CONTATOS</strong>
         </h1>
