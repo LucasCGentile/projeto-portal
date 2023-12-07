@@ -526,7 +526,7 @@ include '../../includes/head/head.php'
     </main>
     <!-- start of footer -->
     <?php
-    include '../../includes/footer/footer.php';
+    include '../../includes/footer/footer.html';
     ?>
     <!-- end of footer -->
 

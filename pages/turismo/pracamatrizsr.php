@@ -7,8 +7,8 @@ include '../../includes/head/head.php'
 
 <body class="index-bg-main">
     <?php
-  include '../../includes/header/header.php'
-  ?>
+    include '../../includes/header/header.php'
+    ?>
     <main class="container">
         <h1 class="sec-turismo">Secretaria de Turismo de São Roque</h1>
         <div class="container d-flex justify-content-center mt-4 mb-4">
@@ -31,8 +31,7 @@ include '../../includes/head/head.php'
             </ul>
         </div>
 
-        <img class="rounded mx-auto d-block img-fluid tupper" src="./images/praca.webp"
-            alt="imagem da praça da matriz de são roque">
+        <img class="rounded mx-auto d-block img-fluid tupper" src="./images/praca.webp" alt="imagem da praça da matriz de são roque">
 
         <h1 class="title-turismo mb-4 mt-5 text-center">Praça da Matriz de São Roque</h1>
 
@@ -50,8 +49,8 @@ include '../../includes/head/head.php'
     </main>
 
     <?php
-  include '../../includes/footer/footer.php'
-  ?>
+    include '../../includes/footer/footer.html'
+    ?>
 </body>
 
 </html>

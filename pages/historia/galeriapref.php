@@ -297,7 +297,7 @@
     </div>
 
     <?php
-    include '../../includes/footer/footer.php'
+    include '../../includes/footer/footer.html'
     ?>
 
 </body>

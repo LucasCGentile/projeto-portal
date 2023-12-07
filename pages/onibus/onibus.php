@@ -121,7 +121,7 @@ include '../../includes/head/head.php';
     </main>
 
     <?php
-    include '../../includes/footer/footer.php';
+    include '../../includes/footer/footer.html';
     ?>
 </body>
 

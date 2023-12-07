@@ -497,8 +497,7 @@ include '../../includes/head/head.php'
                                     <a class="text-decoration-none text-black" href="./aluminio.php">Alumínio</a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a class="text-decoration-none text-black"
-                                        href="./aracariguama.php">Araçariguama</a>
+                                    <a class="text-decoration-none text-black" href="./aracariguama.php">Araçariguama</a>
                                 </li>
                                 <li class="list-group-item">
                                     <a class="text-decoration-none text-black" href="./cotia.php">Cotia</a>
@@ -527,7 +526,7 @@ include '../../includes/head/head.php'
     </main>
     <!-- start of footer -->
     <?php
-    include '../../includes/footer/footer.php';
+    include '../../includes/footer/footer.html';
     ?>
     <!-- end of footer -->
 </body>

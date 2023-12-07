@@ -98,7 +98,7 @@ include '../../../projeto-portal/includes/head/head.php'
 
   </main>
   <?php
-  include '../../../projeto-portal/includes/footer/footer.php'
+  include '../../../projeto-portal/includes/footer/footer.html'
   ?>
 
 </body>

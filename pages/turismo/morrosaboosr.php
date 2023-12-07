@@ -31,8 +31,7 @@ include '../../includes/head/head.php'
             </ul>
         </div>
 
-        <img class="rounded mx-auto d-block img-fluid tupper" src="./images/morro.webp"
-            alt="imagem do morro do Saboó de são roque">
+        <img class="rounded mx-auto d-block img-fluid tupper" src="./images/morro.webp" alt="imagem do morro do Saboó de são roque">
 
         <h1 class="title-turismo mb-4 mt-5 text-center">Morro do Saboó de São Roque</h1>
 
@@ -54,7 +53,7 @@ include '../../includes/head/head.php'
     </main>
 
     <?php
-    include '../../includes/footer/footer.php'
+    include '../../includes/footer/footer.html'
     ?>
 </body>
 
