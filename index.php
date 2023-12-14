@@ -17,26 +17,26 @@ include './includes/head/head.php'
 
         <!-- Conteudo Inicial -->
 
-        <div class="d-flex flex-column flex-lg-row justify-content-between gap-5">
+        <div class="d-flex flex-column flex-lg-row justify-content-between gap-4">
 
           <!-- Lateral Esquerda -->
           <div class="index-noticias-esquerda rounded-4 bg-purple-dark">
-            <div class="position-relative">
+            <div class="position-relative mb-3">
               <img class="img-fluid bg-bright rounded-top-4" src="./assets/images/index-noticia-1.jpg" alt="">
-              <h2 class=" fw-bolder text-white absolute-bottom-left">São Roque abre inscrições para eleição do Conselho Municipal dos Direito da Juventude</h2>
+              <h2 class="fw-bolder text-white absolute-bottom-left">São Roque abre inscrições para eleição do Conselho Municipal dos Direito da Juventude</h2>
             </div>
 
-            <div class="row p-4">
-              <div class="col-12 col-lg-6 pointer ">
+            <div class="row">
+              <a href="#" class="col-12 col-lg-6">
                 <img class="img-fluid rounded me-3 mb-3" src="./assets/images/index-noticia-2.jpg" alt="">
                 <h2 class="fs-16 text-light fw-bold">Prefeitura de São Roque autoriza ambulantes durante as festas de fim de ano</h2>
-              </div>
+              </a>
 
-              <div class="col-12 col-lg-6 pointer ">
+              <a href="#" class="col-12 col-lg-6">
                 <img class="img-fluid rounded me-3 mb-3" src="./assets/images/index-noticia-3.jpg" alt="">
                 <h2 class="fs-16 text-light fw-bold">A equipe de ginástica artística de São Roque se destaca em Indaiatuba
                 </h2>
-              </div>
+              </a>
 
             </div>
 
@@ -45,19 +45,19 @@ include './includes/head/head.php'
           <!-- Lateral Direia -->
           <div class="index-menu-direita">
             <!-- Menu de Navegação -->
-            <div class="text-light bg-green d-flex justify-content-around align-items-center gap-3 rounded-top pt-1 pb-1">
+            <div class="text-light bg-green row rounded-top-4 pt-1 pb-1">
 
-              <div class="d-flex flex-column justify-content-center align-items-center pointer underline-hover">
+              <div class="col d-flex flex-column justify-content-center align-items-center pointer underline-hover">
                 <i class="bi bi-info-circle-fill bg-transparent fs-40 mb-2"></i>
                 <h3 class="fw-bold fs-15 text-center ">Portal da <br> Transparencia</h3>
               </div>
 
-              <div class="d-flex flex-column justify-content-center align-items-center pointer underline-hover">
+              <div class=" col d-flex flex-column justify-content-center align-items-center pointer underline-hover py-3 border-start border-end border-white border-opacity-25">
                 <i class="bi bi-bank2 bg-transparent fs-40 mb-2"></i>
                 <h3 class="fw-bold fs-15 text-center ">Secretarias e <br> Governos</h3>
               </div>
 
-              <div class="d-flex flex-column justify-content-center align-items-center pointer underline-hover">
+              <div class=" col d-flex flex-column justify-content-center align-items-center pointer underline-hover">
                 <i class="bi bi-gear-fill bg-transparent fs-40 mb-2"></i>
                 <h3 class="fw-bold fs-15 text-center ">Portal de <br> Serviços</h3>
               </div>
@@ -89,22 +89,22 @@ include './includes/head/head.php'
 
                 <!-- Cards -->
                 <!-- Card 1 Linha -->
-                <div class="d-flex justify-content-between align-items-center gap-3 text-center">
+                <div class="row text-center">
 
-                  <div class="d-flex flex-column justify-content-center
-                    align-items-center index-bg-secondary card-hover rounded-3 border">
+                  <div class="col d-flex flex-column justify-content-center
+                    align-items-center index-bg-secondary card-hover rounded-3">
                     <i class="bi bi-person-plus-fill fs-40"></i>
                     <span class="fs-15 fw-bolder">Refis 2023</span>
                   </div>
 
-                  <div class="d-flex flex-column justify-content-center
-                    align-items-center index-bg-secondary card-hover rounded-3 border">
+                  <div class="col d-flex flex-column justify-content-center
+                    align-items-center index-bg-secondary card-hover rounded-3 ms-3 me-3 py-3">
                     <i class="bi bi-card-list fs-40"></i>
                     <h3 class="fs-15 fw-bolder">Nota Fiscal Eletronica</h3>
                   </div>
 
-                  <div class="d-flex flex-column justify-content-center
-                    align-items-center index-bg-secondary card-hover rounded-3 border">
+                  <div class="col d-flex flex-column justify-content-center
+                    align-items-center index-bg-secondary card-hover rounded-3 ">
                     <i class="bi bi-person-plus-fill fs-40"></i>
                     <h3 class="fs-15 fw-bolder">Portal do Contribuinte</h3>
                   </div>
@@ -112,39 +112,39 @@ include './includes/head/head.php'
                 </div>
 
                 <!-- Card 2 Linha -->
-                <div class="d-flex justify-content-between align-items-center text-center gap-3 mt-2 mb-2">
+                <div class="row text-center mt-3 mb-3">
 
-                  <div class="d-flex flex-column justify-content-center
-                    align-items-center index-bg-secondary card-hover rounded-3 border">
+                  <div class="col d-flex flex-column justify-content-center
+                    align-items-center index-bg-secondary card-hover rounded-3 ">
                     <i class="bi bi-house-door-fill fs-40"></i>
                     <h3 class="fs-15 fw-bolder">Débitos - IPTU,ITU, ITBI e ISS</h3>
                   </div>
-                  <div class="d-flex flex-column justify-content-center
-                    align-items-center index-bg-secondary card-hover rounded-3 border">
+                  <div class="col d-flex flex-column justify-content-center
+                    align-items-center index-bg-secondary card-hover rounded-3 ms-3 me-3 py-3">
                     <i class="bi bi-book-half fs-40"></i>
                     <h3 class="fs-15 fw-bolder">Diário Oficial e Legislação</h3>
                   </div>
-                  <div class="d-flex flex-column justify-content-center
-                    align-items-center index-bg-secondary card-hover rounded-3 border">
+                  <div class="col d-flex flex-column justify-content-center
+                    align-items-center index-bg-secondary card-hover rounded-3 ">
                     <i class="bi bi-clipboard2-check-fill fs-40"></i>
                     <h3 class="fs-15 fw-bolder">Concursos e Seleções</h3>
                   </div>
                 </div>
 
                 <!-- Card 3 Linha -->
-                <div class="d-flex justify-content-between align-items-center text-center gap-3">
-                  <div class="d-flex flex-column justify-content-center
-                    align-items-center index-bg-secondary card-hover rounded-3 border">
+                <div class="row text-center">
+                  <div class="col d-flex flex-column justify-content-center
+                    align-items-center index-bg-secondary card-hover rounded-3 ">
                     <i class="bi bi-check-lg fs-40"></i>
                     <h3 class="fs-15 fw-bolder">Agendamento Atende Fácil</h3>
                   </div>
-                  <div class="d-flex flex-column justify-content-center
-                    align-items-center index-bg-secondary card-hover rounded-3 border">
+                  <div class="col d-flex flex-column justify-content-center
+                    align-items-center index-bg-secondary card-hover rounded-3 ms-3 me-3 py-3">
                     <i class="bi bi-person-plus-fill fs-40"></i>
                     <h3 class="fs-15 fw-bolder">Agendamento SEFIN / SEPLANH</h3>
                   </div>
-                  <div class="d-flex flex-column justify-content-center
-                    align-items-center index-bg-secondary card-hover rounded-3 border">
+                  <div class="col d-flex flex-column justify-content-center
+                    align-items-center index-bg-secondary card-hover rounded-3 ">
                     <i class="bi bi-house-door-fill fs-40"></i>
                     <h3 class="fs-15 fw-bolder">Programa Municipal de Habitação</h3>
                   </div>
